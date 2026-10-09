@@ -3,6 +3,8 @@
 Experiments using the official NSDI 2024 SIEVE artifact:
 https://github.com/cacheMon/NSDI24-SIEVE
 
+And you can read the technical report here: https://github.com/zakariarafi/sieve-reproduction/blob/main/technical_report.pdf
+
 ## Scope
 
 - Synthetic experiment: bundled Zipf trace, FIFO/LRU/Clock/SIEVE,
