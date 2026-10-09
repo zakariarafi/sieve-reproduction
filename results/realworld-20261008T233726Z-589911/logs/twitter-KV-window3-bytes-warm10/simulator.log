@@ -1,0 +1,67 @@
+[32m[INFO]  10-08-2026 23:44:00 cli_parser.c:545  (tid=129558608155904): trace path: /home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/twitter-KV-window3-warm10.oracleGeneral.bin, trace_type ORACLE_GENERAL_TRACE, ofilepath twitter-KV-window3-warm10.oracleGeneral.bin.cachesim, 4 threads, warmup 100000 sec, total 4 algo x 8 size = 32 caches, fifo, lru, clock, sieve
+[0m[32m[INFO]  10-08-2026 23:44:00 simulator.c:294  (tid=129558608155904): simulate_with_multi_caches starts computation, num_warmup_req 0, start cache FIFO size 11KiB, end cache Sieve size 4MiB, 32 caches, 4 threads, please wait
+[0m[32m[INFO]  10-08-2026 23:44:00 simulator.c:80   (tid=129554215462656): cache FIFO (size 55005) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:00 simulator.c:80   (tid=129554081236736): cache FIFO (size 11001) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:00 simulator.c:80   (tid=129554148349696): cache FIFO (size 110010) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:00 simulator.c:80   (tid=129554282575616): cache FIFO (size 220021) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:01 simulator.c:80   (tid=129554081236736): cache FIFO (size 550053) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:01 simulator.c:80   (tid=129554215462656): cache FIFO (size 1100107) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:01 simulator.c:80   (tid=129554148349696): cache FIFO (size 2200215) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:01 simulator.c:80   (tid=129554282575616): cache FIFO (size 4400431) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:02 simulator.c:80   (tid=129554081236736): cache LRU (size 11001) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:02 simulator.c:80   (tid=129554215462656): cache LRU (size 55005) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:02 simulator.c:80   (tid=129554148349696): cache LRU (size 110010) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:02 simulator.c:80   (tid=129554282575616): cache LRU (size 220021) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:02 simulator.c:80   (tid=129554081236736): cache LRU (size 550053) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:02 simulator.c:80   (tid=129554148349696): cache LRU (size 2200215) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:02 simulator.c:80   (tid=129554215462656): cache LRU (size 1100107) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:02 simulator.c:80   (tid=129554282575616): cache LRU (size 4400431) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:03 simulator.c:80   (tid=129554081236736): cache Clock (size 11001) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:03 simulator.c:80   (tid=129554215462656): cache Clock (size 110010) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:03 simulator.c:80   (tid=129554148349696): cache Clock (size 55005) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:03 simulator.c:80   (tid=129554282575616): cache Clock (size 220021) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:03 simulator.c:80   (tid=129554081236736): cache Clock (size 550053) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:03 simulator.c:80   (tid=129554148349696): cache Clock (size 2200215) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:03 simulator.c:80   (tid=129554215462656): cache Clock (size 1100107) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:04 simulator.c:80   (tid=129554282575616): cache Clock (size 4400431) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:04 simulator.c:80   (tid=129554081236736): cache Sieve (size 11001) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:04 simulator.c:80   (tid=129554148349696): cache Sieve (size 55005) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:04 simulator.c:80   (tid=129554215462656): cache Sieve (size 110010) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:04 simulator.c:80   (tid=129554282575616): cache Sieve (size 220021) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:05 simulator.c:80   (tid=129554081236736): cache Sieve (size 550053) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:05 simulator.c:80   (tid=129554148349696): cache Sieve (size 1100107) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:05 simulator.c:80   (tid=129554215462656): cache Sieve (size 2200215) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m[32m[INFO]  10-08-2026 23:44:05 simulator.c:80   (tid=129554282575616): cache Sieve (size 4400431) finishes warm up using with 100000 requests, 27.78 hour trace time
+[0m
+result/twitter-KV-window3-warm10.oracleGeneral.bin                             FIFO cache size    11001, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                             FIFO cache size    55005, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                             FIFO cache size   110010, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                             FIFO cache size   220021, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                             FIFO cache size   550053, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                             FIFO cache size  1100107, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                             FIFO cache size  2200215, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                             FIFO cache size  4400431, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                              LRU cache size    11001, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                              LRU cache size    55005, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                              LRU cache size   110010, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                              LRU cache size   220021, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                              LRU cache size   550053, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                              LRU cache size  1100107, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                              LRU cache size  2200215, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                              LRU cache size  4400431, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Clock cache size    11001, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Clock cache size    55005, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Clock cache size   110010, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Clock cache size   220021, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Clock cache size   550053, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Clock cache size  1100107, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Clock cache size  2200215, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Clock cache size  4400431, 800000 req, miss ratio 0.5000400000, byte miss ratio 0.5000400000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Sieve cache size    11001, 800000 req, miss ratio 0.5009112500, byte miss ratio 0.5009112500
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Sieve cache size    55005, 800000 req, miss ratio 0.5001975000, byte miss ratio 0.5001975000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Sieve cache size   110010, 800000 req, miss ratio 0.5001375000, byte miss ratio 0.5001375000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Sieve cache size   220021, 800000 req, miss ratio 0.5000912500, byte miss ratio 0.5000912500
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Sieve cache size   550053, 800000 req, miss ratio 0.5000675000, byte miss ratio 0.5000675000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Sieve cache size  1100107, 800000 req, miss ratio 0.5000537500, byte miss ratio 0.5000537500
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Sieve cache size  2200215, 800000 req, miss ratio 0.5000425000, byte miss ratio 0.5000425000
+result/twitter-KV-window3-warm10.oracleGeneral.bin                            Sieve cache size  4400431, 800000 req, miss ratio 0.5000425000, byte miss ratio 0.5000425000

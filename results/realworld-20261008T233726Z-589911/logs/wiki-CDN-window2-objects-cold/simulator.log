@@ -1,0 +1,35 @@
+[32m[INFO]  10-08-2026 23:39:17 cli_parser.c:545  (tid=124117396014336): trace path: /home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/wiki-CDN-window2-cold.oracleGeneral.bin, trace_type ORACLE_GENERAL_TRACE, ofilepath wiki-CDN-window2-cold.oracleGeneral.bin.cachesim, 4 threads, warmup 0 sec, total 4 algo x 8 size = 32 caches, fifo, lru, clock, sieve, ignore object size
+[0m[32m[INFO]  10-08-2026 23:39:17 simulator.c:294  (tid=124117396014336): simulate_with_multi_caches starts computation, num_warmup_req 0, start cache FIFO size 520, end cache Sieve size 203KiB, 32 caches, 4 threads, please wait
+[0m
+result/wiki-CDN-window2-cold.oracleGeneral.bin                             FIFO cache size      520, 800000 req, miss ratio 0.9701737500, byte miss ratio 0.9701737500
+result/wiki-CDN-window2-cold.oracleGeneral.bin                             FIFO cache size     2600, 800000 req, miss ratio 0.9386037500, byte miss ratio 0.9386037500
+result/wiki-CDN-window2-cold.oracleGeneral.bin                             FIFO cache size     5200, 800000 req, miss ratio 0.9137112500, byte miss ratio 0.9137112500
+result/wiki-CDN-window2-cold.oracleGeneral.bin                             FIFO cache size    10401, 800000 req, miss ratio 0.8799275000, byte miss ratio 0.8799275000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                             FIFO cache size    26003, 800000 req, miss ratio 0.8191062500, byte miss ratio 0.8191062500
+result/wiki-CDN-window2-cold.oracleGeneral.bin                             FIFO cache size    52006, 800000 req, miss ratio 0.7606237500, byte miss ratio 0.7606237500
+result/wiki-CDN-window2-cold.oracleGeneral.bin                             FIFO cache size   104013, 800000 req, miss ratio 0.6899825000, byte miss ratio 0.6899825000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                             FIFO cache size   208026, 800000 req, miss ratio 0.6165987500, byte miss ratio 0.6165987500
+result/wiki-CDN-window2-cold.oracleGeneral.bin                              LRU cache size      520, 800000 req, miss ratio 0.9669762500, byte miss ratio 0.9669762500
+result/wiki-CDN-window2-cold.oracleGeneral.bin                              LRU cache size     2600, 800000 req, miss ratio 0.9334375000, byte miss ratio 0.9334375000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                              LRU cache size     5200, 800000 req, miss ratio 0.9062300000, byte miss ratio 0.9062300000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                              LRU cache size    10401, 800000 req, miss ratio 0.8684550000, byte miss ratio 0.8684550000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                              LRU cache size    26003, 800000 req, miss ratio 0.8009500000, byte miss ratio 0.8009500000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                              LRU cache size    52006, 800000 req, miss ratio 0.7358550000, byte miss ratio 0.7358550000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                              LRU cache size   104013, 800000 req, miss ratio 0.6590075000, byte miss ratio 0.6590075000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                              LRU cache size   208026, 800000 req, miss ratio 0.5884312500, byte miss ratio 0.5884312500
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Clock cache size      520, 800000 req, miss ratio 0.9655112500, byte miss ratio 0.9655112500
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Clock cache size     2600, 800000 req, miss ratio 0.9311300000, byte miss ratio 0.9311300000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Clock cache size     5200, 800000 req, miss ratio 0.9023350000, byte miss ratio 0.9023350000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Clock cache size    10401, 800000 req, miss ratio 0.8631175000, byte miss ratio 0.8631175000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Clock cache size    26003, 800000 req, miss ratio 0.7932512500, byte miss ratio 0.7932512500
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Clock cache size    52006, 800000 req, miss ratio 0.7268762500, byte miss ratio 0.7268762500
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Clock cache size   104013, 800000 req, miss ratio 0.6501687500, byte miss ratio 0.6501687500
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Clock cache size   208026, 800000 req, miss ratio 0.5827625000, byte miss ratio 0.5827625000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Sieve cache size      520, 800000 req, miss ratio 0.9479625000, byte miss ratio 0.9479625000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Sieve cache size     2600, 800000 req, miss ratio 0.9004112500, byte miss ratio 0.9004112500
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Sieve cache size     5200, 800000 req, miss ratio 0.8710062500, byte miss ratio 0.8710062500
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Sieve cache size    10401, 800000 req, miss ratio 0.8302025000, byte miss ratio 0.8302025000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Sieve cache size    26003, 800000 req, miss ratio 0.7647000000, byte miss ratio 0.7647000000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Sieve cache size    52006, 800000 req, miss ratio 0.6974712500, byte miss ratio 0.6974712500
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Sieve cache size   104013, 800000 req, miss ratio 0.6324475000, byte miss ratio 0.6324475000
+result/wiki-CDN-window2-cold.oracleGeneral.bin                            Sieve cache size   208026, 800000 req, miss ratio 0.5800737500, byte miss ratio 0.5800737500

@@ -1,0 +1,67 @@
+[32m[INFO]  10-08-2026 23:46:17 cli_parser.c:545  (tid=130627216430336): trace path: /home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/meta-CDN-window2-warm20.oracleGeneral.bin, trace_type ORACLE_GENERAL_TRACE, ofilepath meta-CDN-window2-warm20.oracleGeneral.bin.cachesim, 4 threads, warmup 200000 sec, total 4 algo x 8 size = 32 caches, fifo, lru, clock, sieve
+[0m[32m[INFO]  10-08-2026 23:46:17 simulator.c:294  (tid=130627216430336): simulate_with_multi_caches starts computation, num_warmup_req 0, start cache FIFO size 6GiB, end cache Sieve size 2TiB, 32 caches, 4 threads, please wait
+[0m[32m[INFO]  10-08-2026 23:46:19 simulator.c:80   (tid=130622888474368): cache FIFO (size 6271753921) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:19 simulator.c:80   (tid=130622687135488): cache FIFO (size 62717539210) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:19 simulator.c:80   (tid=130622754248448): cache FIFO (size 125435078421) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:19 simulator.c:80   (tid=130622821361408): cache FIFO (size 31358769605) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:23 simulator.c:80   (tid=130622754248448): cache FIFO (size 627175392108) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:23 simulator.c:80   (tid=130622888474368): cache FIFO (size 313587696054) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:23 simulator.c:80   (tid=130622821361408): cache FIFO (size 2508701568432) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:23 simulator.c:80   (tid=130622687135488): cache FIFO (size 1254350784216) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:24 simulator.c:80   (tid=130622888474368): cache LRU (size 6271753921) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:24 simulator.c:80   (tid=130622754248448): cache LRU (size 31358769605) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:25 simulator.c:80   (tid=130622821361408): cache LRU (size 62717539210) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:25 simulator.c:80   (tid=130622687135488): cache LRU (size 125435078421) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:26 simulator.c:80   (tid=130622888474368): cache LRU (size 313587696054) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:26 simulator.c:80   (tid=130622821361408): cache LRU (size 1254350784216) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:27 simulator.c:80   (tid=130622754248448): cache LRU (size 627175392108) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:27 simulator.c:80   (tid=130622687135488): cache LRU (size 2508701568432) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:29 simulator.c:80   (tid=130622888474368): cache Clock (size 6271753921) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:30 simulator.c:80   (tid=130622821361408): cache Clock (size 31358769605) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:30 simulator.c:80   (tid=130622754248448): cache Clock (size 62717539210) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:31 simulator.c:80   (tid=130622687135488): cache Clock (size 125435078421) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:31 simulator.c:80   (tid=130622888474368): cache Clock (size 313587696054) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:32 simulator.c:80   (tid=130622821361408): cache Clock (size 627175392108) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:32 simulator.c:80   (tid=130622754248448): cache Clock (size 1254350784216) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:32 simulator.c:80   (tid=130622687135488): cache Clock (size 2508701568432) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:32 simulator.c:80   (tid=130622888474368): cache Sieve (size 6271753921) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:34 simulator.c:80   (tid=130622754248448): cache Sieve (size 31358769605) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:34 simulator.c:80   (tid=130622687135488): cache Sieve (size 125435078421) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:34 simulator.c:80   (tid=130622821361408): cache Sieve (size 62717539210) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:34 simulator.c:80   (tid=130622888474368): cache Sieve (size 313587696054) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:35 simulator.c:80   (tid=130622888474368): cache Sieve (size 627175392108) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:35 simulator.c:80   (tid=130622687135488): cache Sieve (size 2508701568432) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m[32m[INFO]  10-08-2026 23:46:35 simulator.c:80   (tid=130622754248448): cache Sieve (size 1254350784216) finishes warm up using with 200000 requests, 55.56 hour trace time
+[0m
+result/meta-CDN-window2-warm20.oracleGeneral.bin                             FIFO cache size 6271753921, 800000 req, miss ratio 0.5330487500, byte miss ratio 0.3663964761
+result/meta-CDN-window2-warm20.oracleGeneral.bin                             FIFO cache size 31358769605, 800000 req, miss ratio 0.5036037500, byte miss ratio 0.3125622695
+result/meta-CDN-window2-warm20.oracleGeneral.bin                             FIFO cache size 62717539210, 800000 req, miss ratio 0.4898400000, byte miss ratio 0.3025139656
+result/meta-CDN-window2-warm20.oracleGeneral.bin                             FIFO cache size 125435078421, 800000 req, miss ratio 0.4745875000, byte miss ratio 0.2949569327
+result/meta-CDN-window2-warm20.oracleGeneral.bin                             FIFO cache size 313587696054, 800000 req, miss ratio 0.4526462500, byte miss ratio 0.2872809037
+result/meta-CDN-window2-warm20.oracleGeneral.bin                             FIFO cache size 627175392108, 800000 req, miss ratio 0.4353800000, byte miss ratio 0.2805339480
+result/meta-CDN-window2-warm20.oracleGeneral.bin                             FIFO cache size 1254350784216, 800000 req, miss ratio 0.4194462500, byte miss ratio 0.2769483108
+result/meta-CDN-window2-warm20.oracleGeneral.bin                             FIFO cache size 2508701568432, 800000 req, miss ratio 0.4037587500, byte miss ratio 0.2727879124
+result/meta-CDN-window2-warm20.oracleGeneral.bin                              LRU cache size 6271753921, 800000 req, miss ratio 0.5290725000, byte miss ratio 0.3473842467
+result/meta-CDN-window2-warm20.oracleGeneral.bin                              LRU cache size 31358769605, 800000 req, miss ratio 0.4988062500, byte miss ratio 0.3000345459
+result/meta-CDN-window2-warm20.oracleGeneral.bin                              LRU cache size 62717539210, 800000 req, miss ratio 0.4838375000, byte miss ratio 0.2958804267
+result/meta-CDN-window2-warm20.oracleGeneral.bin                              LRU cache size 125435078421, 800000 req, miss ratio 0.4670512500, byte miss ratio 0.2907172681
+result/meta-CDN-window2-warm20.oracleGeneral.bin                              LRU cache size 313587696054, 800000 req, miss ratio 0.4445687500, byte miss ratio 0.2847430346
+result/meta-CDN-window2-warm20.oracleGeneral.bin                              LRU cache size 627175392108, 800000 req, miss ratio 0.4276900000, byte miss ratio 0.2789123555
+result/meta-CDN-window2-warm20.oracleGeneral.bin                              LRU cache size 1254350784216, 800000 req, miss ratio 0.4115550000, byte miss ratio 0.2753285022
+result/meta-CDN-window2-warm20.oracleGeneral.bin                              LRU cache size 2508701568432, 800000 req, miss ratio 0.3979862500, byte miss ratio 0.2712968241
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Clock cache size 6271753921, 800000 req, miss ratio 0.5354625000, byte miss ratio 0.3583558203
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Clock cache size 31358769605, 800000 req, miss ratio 0.5030712500, byte miss ratio 0.3013511549
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Clock cache size 62717539210, 800000 req, miss ratio 0.4883750000, byte miss ratio 0.2962628120
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Clock cache size 125435078421, 800000 req, miss ratio 0.4721425000, byte miss ratio 0.2905474655
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Clock cache size 313587696054, 800000 req, miss ratio 0.4500062500, byte miss ratio 0.2852426582
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Clock cache size 627175392108, 800000 req, miss ratio 0.4330787500, byte miss ratio 0.2801805620
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Clock cache size 1254350784216, 800000 req, miss ratio 0.4156050000, byte miss ratio 0.2755560263
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Clock cache size 2508701568432, 800000 req, miss ratio 0.4012262500, byte miss ratio 0.2704740773
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Sieve cache size 6271753921, 800000 req, miss ratio 0.5335687500, byte miss ratio 0.3460061141
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Sieve cache size 31358769605, 800000 req, miss ratio 0.5030212500, byte miss ratio 0.2994425426
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Sieve cache size 62717539210, 800000 req, miss ratio 0.4863900000, byte miss ratio 0.2954493431
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Sieve cache size 125435078421, 800000 req, miss ratio 0.4697612500, byte miss ratio 0.2916648397
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Sieve cache size 313587696054, 800000 req, miss ratio 0.4489912500, byte miss ratio 0.2853906696
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Sieve cache size 627175392108, 800000 req, miss ratio 0.4342812500, byte miss ratio 0.2809465148
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Sieve cache size 1254350784216, 800000 req, miss ratio 0.4178725000, byte miss ratio 0.2756408504
+result/meta-CDN-window2-warm20.oracleGeneral.bin                            Sieve cache size 2508701568432, 800000 req, miss ratio 0.4050962500, byte miss ratio 0.2704514758

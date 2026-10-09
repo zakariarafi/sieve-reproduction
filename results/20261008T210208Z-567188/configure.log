@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_CXX_FLAGS_DEBUG -g CMAKE_CXX_FLAGS_RELWITHDEBINFO -O2 -g -DNDEBUG CMAKE_CXX_FLAGS_RELEASE -O3 -DNDEBUG
+-- SUPPORT TTL OFF, USE_HUGEPAGE OFF, LOGLEVEL INFO, ENABLE_GLCACHE OFF, ENABLE_LRB OFF, OPT_SUPPORT_ZSTD_TRACE ON
+-- Found PkgConfig: /home/zakariarafi/repros/sieve-nsdi24/.repro-env/bin/pkg-config (found version "0.29.2")
+-- Checking for one of the modules 'glib-2.0'
+-- Found GLib: /home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libglib-2.0.so (found version "2.90.0")
+-- Looking for argp_parse
+-- Looking for argp_parse - found
+-- Found argp: /usr/include
+-- Found ZSTD: /home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libzstd.so
+-- Found Zstd: /home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libzstd.so
+-- ZSTD_INCLUDE_DIR /home/zakariarafi/repros/sieve-nsdi24/.repro-env/include, ZSTD_LIBRARIES /home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libzstd.so
+-- Not Found Tcmalloc: Tcmalloc_LIBRARY-NOTFOUND
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+-- <<++=====------------------\/------------------=====++>>
+-- <<++              libCacheSim summary             ++>>
+-- <<++=====------------------/\------------------=====++>>
+-- ================== dependency related ==================
+-- glib found?     TRUE - LIBS=/home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libglib-2.0.so, header =/home/zakariarafi/repros/sieve-nsdi24/.repro-env/include/glib-2.0;/home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/glib-2.0/include
+-- tcmalloc found? FALSE - LIBS=, header=
+-- ZSTD found? TRUE - LIBS=/home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libzstd.so, header=/home/zakariarafi/repros/sieve-nsdi24/.repro-env/include
+-- ==================== CMake related =====================
+-- platform          = Linux 6.8.0-106-generic
+-- CPU type          = x86_64
+-- cmake source      = /home/zakariarafi/repros/sieve-nsdi24/libCacheSim
+-- cmake compiler    = /usr/bin/cc
+-- CMAKE_BUILD_TYPE  = Release
+-- CFLAGS            =    -Wl,--export-dynamic  -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free
+-- LIBS              = /home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libglib-2.0.so
+-- Installation path = /usr/local
+-- ========================================================
+-- ============= Status of optional features ==============
+-- ========================================================
+-- Found customized directory, building customized
+-- Found priv directory, building priv
+-- Building without test
+-- Configuring done (2.0s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/zakariarafi/repros/sieve-nsdi24/libCacheSim/_build

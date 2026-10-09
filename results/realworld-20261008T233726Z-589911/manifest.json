@@ -1,0 +1,307 @@
+{
+  "datasets": {
+    "wiki-CDN": "https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/cacheDatasets/wiki/wiki_2019t.oracleGeneral.zst",
+    "twitter-KV": "https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/cacheDatasets/twitter/cluster10.oracleGeneral.zst",
+    "meta-CDN": "https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/cacheDatasets/metaCDN/meta_reag.oracleGeneral.zst"
+  },
+  "window_requests": 1000000,
+  "windows_per_trace": 3,
+  "scope": "Three consecutive windows from each trace prefix; NOT whole-dataset reproduction.",
+  "warmup": "Same last 80% evaluation suffix. Cold: no prefix. 10%: immediately preceding 10%. 20%: preceding 20%.",
+  "timestamp_conversion": "Ordinal request index, TTL disabled; original timestamp ranges recorded.",
+  "capacity_basis": "Distinct IDs / sum of maximum observed size per ID in each full window.",
+  "fractions": [
+    0.001,
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.4
+  ],
+  "algorithms": [
+    "fifo",
+    "lru",
+    "clock",
+    "sieve"
+  ],
+  "metadata_overhead": false,
+  "zero_size": "Skipped like official reader; counts and stream hashes recorded.",
+  "precision": "Reporting-only patch: exact capacities and 10 decimal places; eviction algorithms unchanged.",
+  "interpretation": "Deterministic replay; temporal windows are not independent random samples. No throughput claim.",
+  "workloads": [
+    {
+      "tag": "wiki-CDN-window1",
+      "requests": 1000000,
+      "evaluation_requests": 800000,
+      "original_first_timestamp": 0,
+      "original_last_timestamp": 7850,
+      "distinct_objects": 519465,
+      "working_set_bytes_max_size": 13749054863,
+      "variable_size_objects": 0,
+      "scenarios": [
+        {
+          "label": "cold",
+          "warmup_requests": 0,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/wiki-CDN-window1-cold.oracleGeneral.bin",
+          "sha256": "13dc6a8fcde72f085dd9ff282ad21e8e1d4b56f9f9104064071a1d898ee6a98b"
+        },
+        {
+          "label": "warm10",
+          "warmup_requests": 100000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/wiki-CDN-window1-warm10.oracleGeneral.bin",
+          "sha256": "60c10e0b9e8e4b1cd60a3aa48d23dbed026b7a6c69bf1287127fba65aa820225"
+        },
+        {
+          "label": "warm20",
+          "warmup_requests": 200000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/wiki-CDN-window1-warm20.oracleGeneral.bin",
+          "sha256": "1181b2fb0a63c4e3aa3b17ab97c842724efcb786674d804d421abb739995e3b3"
+        }
+      ]
+    },
+    {
+      "tag": "wiki-CDN-window2",
+      "requests": 1000000,
+      "evaluation_requests": 800000,
+      "original_first_timestamp": 7850,
+      "original_last_timestamp": 15563,
+      "distinct_objects": 520067,
+      "working_set_bytes_max_size": 13869733298,
+      "variable_size_objects": 0,
+      "scenarios": [
+        {
+          "label": "cold",
+          "warmup_requests": 0,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/wiki-CDN-window2-cold.oracleGeneral.bin",
+          "sha256": "a1b03b1e369bfcd4165bff0b8ea43962182a79ee9c5daaf183c54b4f4360864b"
+        },
+        {
+          "label": "warm10",
+          "warmup_requests": 100000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/wiki-CDN-window2-warm10.oracleGeneral.bin",
+          "sha256": "d02e4af0f0cf0a35a42b93788a7cb28d8a611a5961d153744b5a664e4ac346e5"
+        },
+        {
+          "label": "warm20",
+          "warmup_requests": 200000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/wiki-CDN-window2-warm20.oracleGeneral.bin",
+          "sha256": "ee018a31dc894042fbff2a6bd527fd7076fcd39827748829d1aa058e8f64d6fe"
+        }
+      ]
+    },
+    {
+      "tag": "wiki-CDN-window3",
+      "requests": 1000000,
+      "evaluation_requests": 800000,
+      "original_first_timestamp": 15563,
+      "original_last_timestamp": 23194,
+      "distinct_objects": 520602,
+      "working_set_bytes_max_size": 14253598260,
+      "variable_size_objects": 0,
+      "scenarios": [
+        {
+          "label": "cold",
+          "warmup_requests": 0,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/wiki-CDN-window3-cold.oracleGeneral.bin",
+          "sha256": "04e57ebe6db9c811052fa1af7112be3fef3221e0f0cc522a428c9be986fd92c3"
+        },
+        {
+          "label": "warm10",
+          "warmup_requests": 100000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/wiki-CDN-window3-warm10.oracleGeneral.bin",
+          "sha256": "c1636614a2fb20b84f0cf0ded44094c08482d5c074f5a15591beb5e2ac047ee7"
+        },
+        {
+          "label": "warm20",
+          "warmup_requests": 200000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/wiki-CDN-window3-warm20.oracleGeneral.bin",
+          "sha256": "fbbaf8b312fe594b21bb477dad6f475a89e61fe8191a2dc76810fe8949614dd0"
+        }
+      ]
+    },
+    {
+      "tag": "twitter-KV-window1",
+      "requests": 1000000,
+      "evaluation_requests": 800000,
+      "original_first_timestamp": 0,
+      "original_last_timestamp": 6102,
+      "distinct_objects": 500009,
+      "working_set_bytes_max_size": 11006680,
+      "variable_size_objects": 0,
+      "scenarios": [
+        {
+          "label": "cold",
+          "warmup_requests": 0,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/twitter-KV-window1-cold.oracleGeneral.bin",
+          "sha256": "e3f0e6ae4f74af241941f1ebbf61b7cee118735eaf360f2dced7e1526c7fd0a1"
+        },
+        {
+          "label": "warm10",
+          "warmup_requests": 100000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/twitter-KV-window1-warm10.oracleGeneral.bin",
+          "sha256": "a71a889332210ef233e008d6ddfce38d5de8417e56c6242c11c5de5419160a30"
+        },
+        {
+          "label": "warm20",
+          "warmup_requests": 200000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/twitter-KV-window1-warm20.oracleGeneral.bin",
+          "sha256": "1a5440fc2bd70bf2bc9f1d74fd251b066793be8be2902a48f7e48fd6fd57e9dc"
+        }
+      ]
+    },
+    {
+      "tag": "twitter-KV-window2",
+      "requests": 1000000,
+      "evaluation_requests": 800000,
+      "original_first_timestamp": 6102,
+      "original_last_timestamp": 15507,
+      "distinct_objects": 500009,
+      "working_set_bytes_max_size": 11000198,
+      "variable_size_objects": 0,
+      "scenarios": [
+        {
+          "label": "cold",
+          "warmup_requests": 0,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/twitter-KV-window2-cold.oracleGeneral.bin",
+          "sha256": "1e91f1c88da23975a93a38ea9d3866db37effb8ef835a516c4a2ce9842b8166f"
+        },
+        {
+          "label": "warm10",
+          "warmup_requests": 100000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/twitter-KV-window2-warm10.oracleGeneral.bin",
+          "sha256": "33eea0b56026f359d6ba9d5b3388d691b547db3172a15a871b1c54f762f03d25"
+        },
+        {
+          "label": "warm20",
+          "warmup_requests": 200000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/twitter-KV-window2-warm20.oracleGeneral.bin",
+          "sha256": "326cad63ed0bdcbbc825cde5d944b3bcfb6afa6cea09a248da9df2829f9a2631"
+        }
+      ]
+    },
+    {
+      "tag": "twitter-KV-window3",
+      "requests": 1000000,
+      "evaluation_requests": 800000,
+      "original_first_timestamp": 15507,
+      "original_last_timestamp": 26749,
+      "distinct_objects": 500049,
+      "working_set_bytes_max_size": 11001078,
+      "variable_size_objects": 0,
+      "scenarios": [
+        {
+          "label": "cold",
+          "warmup_requests": 0,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/twitter-KV-window3-cold.oracleGeneral.bin",
+          "sha256": "e42853bf0b5e717fb0373b02c9ff47b98196c4a07a15f4b184393c7ee1510c66"
+        },
+        {
+          "label": "warm10",
+          "warmup_requests": 100000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/twitter-KV-window3-warm10.oracleGeneral.bin",
+          "sha256": "8fb234018d415ec99d26f663bcf2c2afd88250ce76a5a77870c25cb281ca2aab"
+        },
+        {
+          "label": "warm20",
+          "warmup_requests": 200000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/twitter-KV-window3-warm20.oracleGeneral.bin",
+          "sha256": "7a9e52397da093abb869b10b2c341a113133ffb75ab746401396c24e2823caf5"
+        }
+      ]
+    },
+    {
+      "tag": "meta-CDN-window1",
+      "requests": 1000000,
+      "evaluation_requests": 800000,
+      "original_first_timestamp": 2,
+      "original_last_timestamp": 16952,
+      "distinct_objects": 381431,
+      "working_set_bytes_max_size": 6323038860012,
+      "variable_size_objects": 1513,
+      "scenarios": [
+        {
+          "label": "cold",
+          "warmup_requests": 0,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/meta-CDN-window1-cold.oracleGeneral.bin",
+          "sha256": "cf9f11c9480fb14904128ea303fc3cabc0c877b8220fc8876c9d8b7ec79b5779"
+        },
+        {
+          "label": "warm10",
+          "warmup_requests": 100000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/meta-CDN-window1-warm10.oracleGeneral.bin",
+          "sha256": "86da94ca554c058977a46fb11298f838c6a63adb504c1d4b36fa05c790b31eb4"
+        },
+        {
+          "label": "warm20",
+          "warmup_requests": 200000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/meta-CDN-window1-warm20.oracleGeneral.bin",
+          "sha256": "91aef81c4048a8124606c5c10486a2920000f8cc476458d5a279c9625de8b41f"
+        }
+      ]
+    },
+    {
+      "tag": "meta-CDN-window2",
+      "requests": 1000000,
+      "evaluation_requests": 800000,
+      "original_first_timestamp": 16952,
+      "original_last_timestamp": 29635,
+      "distinct_objects": 388288,
+      "working_set_bytes_max_size": 6271753921082,
+      "variable_size_objects": 1068,
+      "scenarios": [
+        {
+          "label": "cold",
+          "warmup_requests": 0,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/meta-CDN-window2-cold.oracleGeneral.bin",
+          "sha256": "d8af26081ed64672cb18f6d4beaec06da5ef286dfea7d53d9d9d63e19a7c6ca8"
+        },
+        {
+          "label": "warm10",
+          "warmup_requests": 100000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/meta-CDN-window2-warm10.oracleGeneral.bin",
+          "sha256": "61a59c139d86a194f09d09ec75b73efdd9eb93b9eb598b47331c1be1dbcf8f51"
+        },
+        {
+          "label": "warm20",
+          "warmup_requests": 200000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/meta-CDN-window2-warm20.oracleGeneral.bin",
+          "sha256": "c9e8443d72121ac7cb681bd08194debe8ce650776371c71f1b598d22f2dd876a"
+        }
+      ]
+    },
+    {
+      "tag": "meta-CDN-window3",
+      "requests": 1000000,
+      "evaluation_requests": 800000,
+      "original_first_timestamp": 29635,
+      "original_last_timestamp": 46596,
+      "distinct_objects": 412639,
+      "working_set_bytes_max_size": 7401067930004,
+      "variable_size_objects": 1283,
+      "scenarios": [
+        {
+          "label": "cold",
+          "warmup_requests": 0,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/meta-CDN-window3-cold.oracleGeneral.bin",
+          "sha256": "012a9b29241fa529710918f4c0a1298f8cf9bc28a7b42735812d74b80f892513"
+        },
+        {
+          "label": "warm10",
+          "warmup_requests": 100000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/meta-CDN-window3-warm10.oracleGeneral.bin",
+          "sha256": "d05d1fffec44764c3fc2411ed12395ea43892a6d0aa3c2ce80a7b662df2d2f99"
+        },
+        {
+          "label": "warm20",
+          "warmup_requests": 200000,
+          "path": "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/meta-CDN-window3-warm20.oracleGeneral.bin",
+          "sha256": "850fb40ba5da411f11d9d14469e676eb683bccfc893781e89cd406071153e6ed"
+        }
+      ]
+    }
+  ],
+  "status": "complete",
+  "rows": 1728
+}

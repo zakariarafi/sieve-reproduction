@@ -1,0 +1,746 @@
+Results directory: /home/zakariarafi/repros/sieve-nsdi24/repro-results/20261008T210208Z-567188
+0861f8261c37b8286a70449a1defb5a4749c72d2
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/zakariarafi/repros/sieve-nsdi24/.repro-env
+
+  added / updated specs:
+    - cmake[version='>=3.12,<4']
+    - glib
+    - matplotlib
+    - numpy
+    - pkg-config
+    - python=3.10
+    - zstd
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _openmp_mutex-4.5          |           20_gnu          28 KB  conda-forge
+    alsa-lib-1.2.16.1          |       h7cc23a3_1         581 KB  conda-forge
+    brotli-1.2.0               |       h505cf86_4          20 KB  conda-forge
+    brotli-bin-1.2.0           |       h9908984_4          21 KB  conda-forge
+    bzip2-1.0.8                |      hda65f42_10         252 KB  conda-forge
+    c-ares-1.34.8              |       hebe6cf0_2         223 KB  conda-forge
+    ca-certificates-2026.7.22  |       hbd8a1cb_0         129 KB  conda-forge
+    cairo-1.18.6               |       h3c89d7e_0         984 KB  conda-forge
+    cmake-3.31.8               |       hc85cc9f_0        20.0 MB  conda-forge
+    contourpy-1.3.2            |  py310h3788b33_0         255 KB  conda-forge
+    cycler-0.12.1              |     pyhcf101f3_2          14 KB  conda-forge
+    cyrus-sasl-2.1.28          |       hac629b4_1         205 KB  conda-forge
+    dbus-1.16.2                |       he8c428d_2         439 KB  conda-forge
+    double-conversion-3.4.0    |       hecca717_0          70 KB  conda-forge
+    font-ttf-dejavu-sans-mono-2.37|       hab24e00_0         388 KB  conda-forge
+    font-ttf-inconsolata-3.000 |       h77eed37_0          94 KB  conda-forge
+    font-ttf-source-code-pro-2.038|       h77eed37_0         684 KB  conda-forge
+    font-ttf-ubuntu-0.83       |       h77eed37_3         1.5 MB  conda-forge
+    fontconfig-2.18.3          |       h4db4eae_1         289 KB  conda-forge
+    fonts-conda-ecosystem-1    |                0           4 KB  conda-forge
+    fonts-conda-forge-1        |       hc364b38_1           4 KB  conda-forge
+    fonttools-4.63.0           |  py310h3406613_0         2.3 MB  conda-forge
+    freetype-2.14.3            |       ha770c72_2         171 KB  conda-forge
+    glib-2.90.0                |       h5e3c387_0          84 KB  conda-forge
+    glib-tools-2.90.0          |       h3d503d9_0         232 KB  conda-forge
+    graphite2-1.3.15           |       h54a6638_1         100 KB  conda-forge
+    icu-78.3                   |  py310h44b86e0_2        13.8 MB  conda-forge
+    keyutils-1.6.3             |       h7cc23a3_1         132 KB  conda-forge
+    kiwisolver-1.5.1           |  py310he417ec5_0          75 KB  conda-forge
+    krb5-1.22.2                |       hbc21106_2         1.3 MB  conda-forge
+    lcms2-2.19.1               |       h9073bf1_3         248 KB  conda-forge
+    ld_impl_linux-64-2.46.1    |default_hbd61a6d_102         728 KB  conda-forge
+    lerc-4.2.0                 |       hdb68285_0         265 KB  conda-forge
+    libblas-3.11.0             |11_h4a7cf45_openblas          18 KB  conda-forge
+    libbrotlicommon-1.2.0      |       h39a168f_4          79 KB  conda-forge
+    libbrotlidec-1.2.0         |       ha411449_4          34 KB  conda-forge
+    libbrotlienc-1.2.0         |       h018ffa1_4         291 KB  conda-forge
+    libcblas-3.11.0            |11_h0358290_openblas          18 KB  conda-forge
+    libclang-cpp23.1-23.1.3    |default_h0acdd01_0        24.2 MB  conda-forge
+    libclang13-23.1.3          |default_h72567ca_0        14.7 MB  conda-forge
+    libcups-2.3.3              |       h7a8fb5f_6         4.3 MB  conda-forge
+    libcurl-8.22.0             |       ha042cf0_0         488 KB  conda-forge
+    libdeflate-1.25            |       hd45a770_1          72 KB  conda-forge
+    libdrm-2.4.129             |       h7cc23a3_0         306 KB  conda-forge
+    libedit-3.1.20260512       | pl5321h373387f_0         133 KB  conda-forge
+    libegl-1.7.0               |       ha4b6fd6_5          46 KB  conda-forge
+    libegl-devel-1.7.0         |       ha4b6fd6_5          31 KB  conda-forge
+    libev-4.33                 |       h280c20c_3          42 KB  conda-forge
+    libexpat-2.8.5             |       hd2095e1_0          76 KB  conda-forge
+    libffi-3.7.0               |       h81df57d_1          66 KB  conda-forge
+    libfreetype-2.14.3         |       ha770c72_2           8 KB  conda-forge
+    libfreetype6-2.14.3        |       h5e6c136_2         379 KB  conda-forge
+    libgcc-16.2.0              |       ha9f2e26_7         1.0 MB  conda-forge
+    libgcc-ng-16.2.0           |       h69a702a_7          28 KB  conda-forge
+    libgfortran-16.2.0         |       h69a702a_7          28 KB  conda-forge
+    libgfortran5-16.2.0        |       h6b99dfc_7         2.4 MB  conda-forge
+    libgl-1.7.0                |       ha4b6fd6_5         129 KB  conda-forge
+    libgl-devel-1.7.0          |       ha4b6fd6_5         113 KB  conda-forge
+    libglib-2.90.0             |       h569388d_0         4.6 MB  conda-forge
+    libglvnd-1.7.0             |       ha4b6fd6_5         131 KB  conda-forge
+    libglx-1.7.0               |       ha4b6fd6_5          78 KB  conda-forge
+    libglx-devel-1.7.0         |       ha4b6fd6_5          27 KB  conda-forge
+    libgomp-16.2.0             |       he0feb66_7         626 KB  conda-forge
+    libharfbuzz-14.6.0         |       h23af247_1         1.4 MB  conda-forge
+    libiconv-1.18              |       h0cb94f2_3         771 KB  conda-forge
+    libjpeg-turbo-3.2.0        |       hb03c661_1         635 KB  conda-forge
+    liblapack-3.11.0           |11_h47877c9_openblas          18 KB  conda-forge
+    libllvm23-23.1.3           |       h474f4eb_0        43.0 MB  conda-forge
+    liblzma-5.8.3              |       hb03c661_1         110 KB  conda-forge
+    libnghttp2-1.68.1          |       h74cf4be_1         635 KB  conda-forge
+    libnsl-2.0.1               |       hb9d3cd8_1          33 KB  conda-forge
+    libntlm-1.8                |       hb9d3cd8_0          33 KB  conda-forge
+    libopenblas-0.3.34         |pthreads_hf13c14d_2         6.5 MB  conda-forge
+    libopengl-1.7.0            |       ha4b6fd6_5          49 KB  conda-forge
+    libpciaccess-0.19          |       hb03c661_1          29 KB  conda-forge
+    libpng-1.6.59              |       h922cc85_0         309 KB  conda-forge
+    libpq-18.6                 |       h3883810_3         2.6 MB  conda-forge
+    libpsl-0.23.1              |       hd9e3e90_1          71 KB  conda-forge
+    libsqlite-3.53.4           |     h0737f62_102         947 KB  conda-forge
+    libssh2-1.11.1             |       h6154650_1         299 KB  conda-forge
+    libstdcxx-16.2.0           |       h934c35e_7         6.3 MB  conda-forge
+    libstdcxx-ng-16.2.0        |       hdf11a46_7          28 KB  conda-forge
+    libtiff-4.7.2              |       hcc2c06a_1         449 KB  conda-forge
+    libuuid-2.42.4             |       hcfc3c73_0          34 KB  conda-forge
+    libuv-1.52.1               |       h280c20c_1         410 KB  conda-forge
+    libvulkan-loader-1.4.357.0 |       h0e34353_2         202 KB  conda-forge
+    libwebp-base-1.6.0         |       hd42ef1d_1         418 KB  conda-forge
+    libxcb-1.17.0              |       hb83e432_2         386 KB  conda-forge
+    libxcrypt-4.4.38           |       h280c20c_0         100 KB  conda-forge
+    libxkbcommon-1.13.2        |       h51789e4_1         920 KB  conda-forge
+    libxml2-2.15.4             |       h7df9aa5_1          45 KB  conda-forge
+    libxml2-16-2.15.4          |       hf3af7cc_1         556 KB  conda-forge
+    libxslt-1.1.45             |       h8e12856_1         244 KB  conda-forge
+    libzlib-1.3.2              |       h25fd6f3_3          62 KB  conda-forge
+    matplotlib-3.10.9          |  py310hff52083_0          17 KB  conda-forge
+    matplotlib-base-3.10.9     |  py310hfde16b3_0         7.0 MB  conda-forge
+    munkres-1.1.4              |     pyhd8ed1ab_1          15 KB  conda-forge
+    ncurses-6.6                |       hdb14827_1         890 KB  conda-forge
+    numpy-2.2.6                |  py310hefbff90_0         7.5 MB  conda-forge
+    openjpeg-2.5.4             |       heb1ab33_2         382 KB  conda-forge
+    openldap-2.6.13            |       hbde042b_0         768 KB  conda-forge
+    openssl-3.6.5              |       h781a0a9_0         3.0 MB  conda-forge
+    packaging-26.3             |     pyhc364b38_0         114 KB  conda-forge
+    pcre2-10.47                |       h8b3dc9c_1         1.2 MB  conda-forge
+    pillow-12.3.0              |  py310h5a73078_0         894 KB  conda-forge
+    pip-26.2.1                 |     pyh8b19718_0         1.1 MB  conda-forge
+    pixman-0.46.4              |       h54a6638_3         368 KB  conda-forge
+    pkg-config-0.29.2          |    h1114479_1013         138 KB  conda-forge
+    pthread-stubs-0.4          |    h7cc23a3_1004           9 KB  conda-forge
+    pyparsing-3.3.2            |     pyhcf101f3_0         108 KB  conda-forge
+    pyside6-6.11.2             |  py310ha8dd31c_0        13.2 MB  conda-forge
+    python-3.10.22             |h267e890_0_cpython        24.2 MB  conda-forge
+    python-dateutil-2.9.0.post0|     pyhe01879c_2         228 KB  conda-forge
+    python_abi-3.10            |          9_cp310           7 KB  conda-forge
+    qhull-2020.2               |       h434a139_5         540 KB  conda-forge
+    qt6-main-6.11.2            | pl5321h9df5c37_0        58.1 MB  conda-forge
+    readline-8.3               |       hd6e31c0_1         341 KB  conda-forge
+    rhash-1.4.6                |       hb03c661_2         190 KB  conda-forge
+    setuptools-84.0.0          |     pyh332efcf_0         512 KB  conda-forge
+    six-1.17.0                 |     pyhe01879c_1          18 KB  conda-forge
+    tk-8.6.13                  | noxft_h1df4ec4_4         3.4 MB  conda-forge
+    tornado-6.5.8              |  py310h7c4b9e2_0         662 KB  conda-forge
+    tzdata-2026c               |       h151e31d_0         116 KB  conda-forge
+    unicodedata2-17.0.1        |  py310h7c4b9e2_0         401 KB  conda-forge
+    wayland-1.26.0             |       hc1c935e_2         332 KB  conda-forge
+    wheel-0.48.0               |     pyhd8ed1ab_0          34 KB  conda-forge
+    xcb-util-0.4.1             |       h4f16b4b_2          20 KB  conda-forge
+    xcb-util-cursor-0.1.6      |       hb03c661_0          20 KB  conda-forge
+    xcb-util-image-0.4.0       |       hb711507_2          24 KB  conda-forge
+    xcb-util-keysyms-0.4.1     |       hb711507_0          14 KB  conda-forge
+    xcb-util-renderutil-0.3.10 |       hb711507_0          17 KB  conda-forge
+    xcb-util-wm-0.4.2          |       hb711507_0          50 KB  conda-forge
+    xkeyboard-config-2.48      |       h280c20c_0         431 KB  conda-forge
+    xorg-libice-1.1.2          |       h280c20c_0          61 KB  conda-forge
+    xorg-libsm-1.2.6           |       h0d788c3_1          30 KB  conda-forge
+    xorg-libx11-1.8.13         |       he1eb515_1         820 KB  conda-forge
+    xorg-libxau-1.0.12         |       h7cc23a3_2          18 KB  conda-forge
+    xorg-libxcomposite-0.4.7   |       hb03c661_0          14 KB  conda-forge
+    xorg-libxcursor-1.2.3      |       hb9d3cd8_0          32 KB  conda-forge
+    xorg-libxdamage-1.1.6      |       hb9d3cd8_0          13 KB  conda-forge
+    xorg-libxdmcp-1.1.5        |       h7cc23a3_2          22 KB  conda-forge
+    xorg-libxext-1.3.7         |       h7cc23a3_1          52 KB  conda-forge
+    xorg-libxfixes-6.0.2       |       h7cc23a3_1          21 KB  conda-forge
+    xorg-libxi-1.8.3           |       h7cc23a3_1          48 KB  conda-forge
+    xorg-libxrandr-1.5.5       |       h7cc23a3_1          30 KB  conda-forge
+    xorg-libxrender-0.9.12     |       hb03c661_1          34 KB  conda-forge
+    xorg-libxtst-1.2.5         |       h7cc23a3_4          34 KB  conda-forge
+    xorg-libxxf86vm-1.1.7      |       hb03c661_0          18 KB  conda-forge
+    xorg-xorgproto-2025.1      |       hebe6cf0_3         582 KB  conda-forge
+    zlib-ng-2.3.3              |       hce19668_1         121 KB  conda-forge
+    zstd-1.5.7                 |       hb78ec9c_7         587 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       296.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-20_gnu
+  alsa-lib           conda-forge/linux-64::alsa-lib-1.2.16.1-h7cc23a3_1
+  brotli             conda-forge/linux-64::brotli-1.2.0-h505cf86_4
+  brotli-bin         conda-forge/linux-64::brotli-bin-1.2.0-h9908984_4
+  bzip2              conda-forge/linux-64::bzip2-1.0.8-hda65f42_10
+  c-ares             conda-forge/linux-64::c-ares-1.34.8-hebe6cf0_2
+  ca-certificates    conda-forge/noarch::ca-certificates-2026.7.22-hbd8a1cb_0
+  cairo              conda-forge/linux-64::cairo-1.18.6-h3c89d7e_0
+  cmake              conda-forge/linux-64::cmake-3.31.8-hc85cc9f_0
+  contourpy          conda-forge/linux-64::contourpy-1.3.2-py310h3788b33_0
+  cycler             conda-forge/noarch::cycler-0.12.1-pyhcf101f3_2
+  cyrus-sasl         conda-forge/linux-64::cyrus-sasl-2.1.28-hac629b4_1
+  dbus               conda-forge/linux-64::dbus-1.16.2-he8c428d_2
+  double-conversion  conda-forge/linux-64::double-conversion-3.4.0-hecca717_0
+  font-ttf-dejavu-s~ conda-forge/noarch::font-ttf-dejavu-sans-mono-2.37-hab24e00_0
+  font-ttf-inconsol~ conda-forge/noarch::font-ttf-inconsolata-3.000-h77eed37_0
+  font-ttf-source-c~ conda-forge/noarch::font-ttf-source-code-pro-2.038-h77eed37_0
+  font-ttf-ubuntu    conda-forge/noarch::font-ttf-ubuntu-0.83-h77eed37_3
+  fontconfig         conda-forge/linux-64::fontconfig-2.18.3-h4db4eae_1
+  fonts-conda-ecosy~ conda-forge/noarch::fonts-conda-ecosystem-1-0
+  fonts-conda-forge  conda-forge/noarch::fonts-conda-forge-1-hc364b38_1
+  fonttools          conda-forge/linux-64::fonttools-4.63.0-py310h3406613_0
+  freetype           conda-forge/linux-64::freetype-2.14.3-ha770c72_2
+  glib               conda-forge/linux-64::glib-2.90.0-h5e3c387_0
+  glib-tools         conda-forge/linux-64::glib-tools-2.90.0-h3d503d9_0
+  graphite2          conda-forge/linux-64::graphite2-1.3.15-h54a6638_1
+  icu                conda-forge/linux-64::icu-78.3-py310h44b86e0_2
+  keyutils           conda-forge/linux-64::keyutils-1.6.3-h7cc23a3_1
+  kiwisolver         conda-forge/linux-64::kiwisolver-1.5.1-py310he417ec5_0
+  krb5               conda-forge/linux-64::krb5-1.22.2-hbc21106_2
+  lcms2              conda-forge/linux-64::lcms2-2.19.1-h9073bf1_3
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.46.1-default_hbd61a6d_102
+  lerc               conda-forge/linux-64::lerc-4.2.0-hdb68285_0
+  libblas            conda-forge/linux-64::libblas-3.11.0-11_h4a7cf45_openblas
+  libbrotlicommon    conda-forge/linux-64::libbrotlicommon-1.2.0-h39a168f_4
+  libbrotlidec       conda-forge/linux-64::libbrotlidec-1.2.0-ha411449_4
+  libbrotlienc       conda-forge/linux-64::libbrotlienc-1.2.0-h018ffa1_4
+  libcblas           conda-forge/linux-64::libcblas-3.11.0-11_h0358290_openblas
+  libclang-cpp23.1   conda-forge/linux-64::libclang-cpp23.1-23.1.3-default_h0acdd01_0
+  libclang13         conda-forge/linux-64::libclang13-23.1.3-default_h72567ca_0
+  libcups            conda-forge/linux-64::libcups-2.3.3-h7a8fb5f_6
+  libcurl            conda-forge/linux-64::libcurl-8.22.0-ha042cf0_0
+  libdeflate         conda-forge/linux-64::libdeflate-1.25-hd45a770_1
+  libdrm             conda-forge/linux-64::libdrm-2.4.129-h7cc23a3_0
+  libedit            conda-forge/linux-64::libedit-3.1.20260512-pl5321h373387f_0
+  libegl             conda-forge/linux-64::libegl-1.7.0-ha4b6fd6_5
+  libegl-devel       conda-forge/linux-64::libegl-devel-1.7.0-ha4b6fd6_5
+  libev              conda-forge/linux-64::libev-4.33-h280c20c_3
+  libexpat           conda-forge/linux-64::libexpat-2.8.5-hd2095e1_0
+  libffi             conda-forge/linux-64::libffi-3.7.0-h81df57d_1
+  libfreetype        conda-forge/linux-64::libfreetype-2.14.3-ha770c72_2
+  libfreetype6       conda-forge/linux-64::libfreetype6-2.14.3-h5e6c136_2
+  libgcc             conda-forge/linux-64::libgcc-16.2.0-ha9f2e26_7
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-16.2.0-h69a702a_7
+  libgfortran        conda-forge/linux-64::libgfortran-16.2.0-h69a702a_7
+  libgfortran5       conda-forge/linux-64::libgfortran5-16.2.0-h6b99dfc_7
+  libgl              conda-forge/linux-64::libgl-1.7.0-ha4b6fd6_5
+  libgl-devel        conda-forge/linux-64::libgl-devel-1.7.0-ha4b6fd6_5
+  libglib            conda-forge/linux-64::libglib-2.90.0-h569388d_0
+  libglvnd           conda-forge/linux-64::libglvnd-1.7.0-ha4b6fd6_5
+  libglx             conda-forge/linux-64::libglx-1.7.0-ha4b6fd6_5
+  libglx-devel       conda-forge/linux-64::libglx-devel-1.7.0-ha4b6fd6_5
+  libgomp            conda-forge/linux-64::libgomp-16.2.0-he0feb66_7
+  libharfbuzz        conda-forge/linux-64::libharfbuzz-14.6.0-h23af247_1
+  libiconv           conda-forge/linux-64::libiconv-1.18-h0cb94f2_3
+  libjpeg-turbo      conda-forge/linux-64::libjpeg-turbo-3.2.0-hb03c661_1
+  liblapack          conda-forge/linux-64::liblapack-3.11.0-11_h47877c9_openblas
+  libllvm23          conda-forge/linux-64::libllvm23-23.1.3-h474f4eb_0
+  liblzma            conda-forge/linux-64::liblzma-5.8.3-hb03c661_1
+  libnghttp2         conda-forge/linux-64::libnghttp2-1.68.1-h74cf4be_1
+  libnsl             conda-forge/linux-64::libnsl-2.0.1-hb9d3cd8_1
+  libntlm            conda-forge/linux-64::libntlm-1.8-hb9d3cd8_0
+  libopenblas        conda-forge/linux-64::libopenblas-0.3.34-pthreads_hf13c14d_2
+  libopengl          conda-forge/linux-64::libopengl-1.7.0-ha4b6fd6_5
+  libpciaccess       conda-forge/linux-64::libpciaccess-0.19-hb03c661_1
+  libpng             conda-forge/linux-64::libpng-1.6.59-h922cc85_0
+  libpq              conda-forge/linux-64::libpq-18.6-h3883810_3
+  libpsl             conda-forge/linux-64::libpsl-0.23.1-hd9e3e90_1
+  libsqlite          conda-forge/linux-64::libsqlite-3.53.4-h0737f62_102
+  libssh2            conda-forge/linux-64::libssh2-1.11.1-h6154650_1
+  libstdcxx          conda-forge/linux-64::libstdcxx-16.2.0-h934c35e_7
+  libstdcxx-ng       conda-forge/linux-64::libstdcxx-ng-16.2.0-hdf11a46_7
+  libtiff            conda-forge/linux-64::libtiff-4.7.2-hcc2c06a_1
+  libuuid            conda-forge/linux-64::libuuid-2.42.4-hcfc3c73_0
+  libuv              conda-forge/linux-64::libuv-1.52.1-h280c20c_1
+  libvulkan-loader   conda-forge/linux-64::libvulkan-loader-1.4.357.0-h0e34353_2
+  libwebp-base       conda-forge/linux-64::libwebp-base-1.6.0-hd42ef1d_1
+  libxcb             conda-forge/linux-64::libxcb-1.17.0-hb83e432_2
+  libxcrypt          conda-forge/linux-64::libxcrypt-4.4.38-h280c20c_0
+  libxkbcommon       conda-forge/linux-64::libxkbcommon-1.13.2-h51789e4_1
+  libxml2            conda-forge/linux-64::libxml2-2.15.4-h7df9aa5_1
+  libxml2-16         conda-forge/linux-64::libxml2-16-2.15.4-hf3af7cc_1
+  libxslt            conda-forge/linux-64::libxslt-1.1.45-h8e12856_1
+  libzlib            conda-forge/linux-64::libzlib-1.3.2-h25fd6f3_3
+  matplotlib         conda-forge/linux-64::matplotlib-3.10.9-py310hff52083_0
+  matplotlib-base    conda-forge/linux-64::matplotlib-base-3.10.9-py310hfde16b3_0
+  munkres            conda-forge/noarch::munkres-1.1.4-pyhd8ed1ab_1
+  ncurses            conda-forge/linux-64::ncurses-6.6-hdb14827_1
+  numpy              conda-forge/linux-64::numpy-2.2.6-py310hefbff90_0
+  openjpeg           conda-forge/linux-64::openjpeg-2.5.4-heb1ab33_2
+  openldap           conda-forge/linux-64::openldap-2.6.13-hbde042b_0
+  openssl            conda-forge/linux-64::openssl-3.6.5-h781a0a9_0
+  packaging          conda-forge/noarch::packaging-26.3-pyhc364b38_0
+  pcre2              conda-forge/linux-64::pcre2-10.47-h8b3dc9c_1
+  pillow             conda-forge/linux-64::pillow-12.3.0-py310h5a73078_0
+  pip                conda-forge/noarch::pip-26.2.1-pyh8b19718_0
+  pixman             conda-forge/linux-64::pixman-0.46.4-h54a6638_3
+  pkg-config         conda-forge/linux-64::pkg-config-0.29.2-h1114479_1013
+  pthread-stubs      conda-forge/linux-64::pthread-stubs-0.4-h7cc23a3_1004
+  pyparsing          conda-forge/noarch::pyparsing-3.3.2-pyhcf101f3_0
+  pyside6            conda-forge/linux-64::pyside6-6.11.2-py310ha8dd31c_0
+  python             conda-forge/linux-64::python-3.10.22-h267e890_0_cpython
+  python-dateutil    conda-forge/noarch::python-dateutil-2.9.0.post0-pyhe01879c_2
+  python_abi         conda-forge/noarch::python_abi-3.10-9_cp310
+  qhull              conda-forge/linux-64::qhull-2020.2-h434a139_5
+  qt6-main           conda-forge/linux-64::qt6-main-6.11.2-pl5321h9df5c37_0
+  readline           conda-forge/linux-64::readline-8.3-hd6e31c0_1
+  rhash              conda-forge/linux-64::rhash-1.4.6-hb03c661_2
+  setuptools         conda-forge/noarch::setuptools-84.0.0-pyh332efcf_0
+  six                conda-forge/noarch::six-1.17.0-pyhe01879c_1
+  tk                 conda-forge/linux-64::tk-8.6.13-noxft_h1df4ec4_4
+  tornado            conda-forge/linux-64::tornado-6.5.8-py310h7c4b9e2_0
+  tzdata             conda-forge/noarch::tzdata-2026c-h151e31d_0
+  unicodedata2       conda-forge/linux-64::unicodedata2-17.0.1-py310h7c4b9e2_0
+  wayland            conda-forge/linux-64::wayland-1.26.0-hc1c935e_2
+  wheel              conda-forge/noarch::wheel-0.48.0-pyhd8ed1ab_0
+  xcb-util           conda-forge/linux-64::xcb-util-0.4.1-h4f16b4b_2
+  xcb-util-cursor    conda-forge/linux-64::xcb-util-cursor-0.1.6-hb03c661_0
+  xcb-util-image     conda-forge/linux-64::xcb-util-image-0.4.0-hb711507_2
+  xcb-util-keysyms   conda-forge/linux-64::xcb-util-keysyms-0.4.1-hb711507_0
+  xcb-util-renderut~ conda-forge/linux-64::xcb-util-renderutil-0.3.10-hb711507_0
+  xcb-util-wm        conda-forge/linux-64::xcb-util-wm-0.4.2-hb711507_0
+  xkeyboard-config   conda-forge/linux-64::xkeyboard-config-2.48-h280c20c_0
+  xorg-libice        conda-forge/linux-64::xorg-libice-1.1.2-h280c20c_0
+  xorg-libsm         conda-forge/linux-64::xorg-libsm-1.2.6-h0d788c3_1
+  xorg-libx11        conda-forge/linux-64::xorg-libx11-1.8.13-he1eb515_1
+  xorg-libxau        conda-forge/linux-64::xorg-libxau-1.0.12-h7cc23a3_2
+  xorg-libxcomposite conda-forge/linux-64::xorg-libxcomposite-0.4.7-hb03c661_0
+  xorg-libxcursor    conda-forge/linux-64::xorg-libxcursor-1.2.3-hb9d3cd8_0
+  xorg-libxdamage    conda-forge/linux-64::xorg-libxdamage-1.1.6-hb9d3cd8_0
+  xorg-libxdmcp      conda-forge/linux-64::xorg-libxdmcp-1.1.5-h7cc23a3_2
+  xorg-libxext       conda-forge/linux-64::xorg-libxext-1.3.7-h7cc23a3_1
+  xorg-libxfixes     conda-forge/linux-64::xorg-libxfixes-6.0.2-h7cc23a3_1
+  xorg-libxi         conda-forge/linux-64::xorg-libxi-1.8.3-h7cc23a3_1
+  xorg-libxrandr     conda-forge/linux-64::xorg-libxrandr-1.5.5-h7cc23a3_1
+  xorg-libxrender    conda-forge/linux-64::xorg-libxrender-0.9.12-hb03c661_1
+  xorg-libxtst       conda-forge/linux-64::xorg-libxtst-1.2.5-h7cc23a3_4
+  xorg-libxxf86vm    conda-forge/linux-64::xorg-libxxf86vm-1.1.7-hb03c661_0
+  xorg-xorgproto     conda-forge/linux-64::xorg-xorgproto-2025.1-hebe6cf0_3
+  zlib-ng            conda-forge/linux-64::zlib-ng-2.3.3-hce19668_1
+  zstd               conda-forge/linux-64::zstd-1.5.7-hb78ec9c_7
+
+
+
+Downloading and Extracting Packages
+numpy-2.2.6          | 7.5 MB    |                                                                                        |   0% numpy-2.2.6          | 7.5 MB    | 1                                                                                      |   0% numpy-2.2.6          | 7.5 MB    | #######6                                                                               |   9% numpy-2.2.6          | 7.5 MB    | ######################################################################1                |  82% numpy-2.2.6          | 7.5 MB    | ###################################################################################### | 100% 
+brotli-1.2.0         | 20 KB     |                                                                                        |   0% brotli-1.2.0         | 20 KB     | ###################################################################################### | 100% 
+xorg-libice-1.1.2    | 61 KB     |                                                                                        |   0% xorg-libice-1.1.2    | 61 KB     | ###################################################################################### | 100% 
+xorg-libxi-1.8.3     | 48 KB     |                                                                                        |   0% xorg-libxi-1.8.3     | 48 KB     | ###################################################################################### | 100% 
+krb5-1.22.2          | 1.3 MB    |                                                                                        |   0% krb5-1.22.2          | 1.3 MB    | ###################################################################################### | 100% krb5-1.22.2          | 1.3 MB    | ###################################################################################### | 100% 
+xorg-libxcomposite-0 | 14 KB     |                                                                                        |   0% xorg-libxcomposite-0 | 14 KB     | ###################################################################################### | 100% 
+libclang-cpp23.1-23. | 24.2 MB   |                                                                                        |   0% libclang-cpp23.1-23. | 24.2 MB   | #######################3                                                               |  27% libclang-cpp23.1-23. | 24.2 MB   | ##############################################6                                        |  54% libclang-cpp23.1-23. | 24.2 MB   | #####################################################################################6 | 100% libclang-cpp23.1-23. | 24.2 MB   | ###################################################################################### | 100% 
+libegl-1.7.0         | 46 KB     |                                                                                        |   0% libegl-1.7.0         | 46 KB     | ###################################################################################### | 100% 
+cairo-1.18.6         | 984 KB    |                                                                                        |   0% cairo-1.18.6         | 984 KB    | ###################################################################################### | 100% 
+xorg-xorgproto-2025. | 582 KB    |                                                                                        |   0% xorg-xorgproto-2025. | 582 KB    | ###################################################################################### | 100% 
+keyutils-1.6.3       | 132 KB    |                                                                                        |   0% keyutils-1.6.3       | 132 KB    | ###################################################################################### | 100% 
+libopenblas-0.3.34   | 6.5 MB    |                                                                                        |   0% libopenblas-0.3.34   | 6.5 MB    | ########################################################3                              |  66% libopenblas-0.3.34   | 6.5 MB    | ###################################################################################### | 100% 
+libbrotlidec-1.2.0   | 34 KB     |                                                                                        |   0% libbrotlidec-1.2.0   | 34 KB     | ###################################################################################### | 100% 
+brotli-bin-1.2.0     | 21 KB     |                                                                                        |   0% brotli-bin-1.2.0     | 21 KB     | ###################################################################################### | 100% 
+libllvm23-23.1.3     | 43.0 MB   |                                                                                        |   0% libllvm23-23.1.3     | 43.0 MB   | #############7                                                                         |  16% libllvm23-23.1.3     | 43.0 MB   | ############################3                                                          |  33% libllvm23-23.1.3     | 43.0 MB   | #################################################6                                     |  58% libllvm23-23.1.3     | 43.0 MB   | ###################################################################1                   |  78% libllvm23-23.1.3     | 43.0 MB   | ###################################################################################### | 100% libllvm23-23.1.3     | 43.0 MB   | ###################################################################################### | 100% 
+cyrus-sasl-2.1.28    | 205 KB    |                                                                                        |   0% cyrus-sasl-2.1.28    | 205 KB    | ###################################################################################### | 100% 
+libgfortran-16.2.0   | 28 KB     |                                                                                        |   0% libgfortran-16.2.0   | 28 KB     | ###################################################################################### | 100% 
+libcups-2.3.3        | 4.3 MB    |                                                                                        |   0% libcups-2.3.3        | 4.3 MB    | #####################################################################################7 | 100% libcups-2.3.3        | 4.3 MB    | ###################################################################################### | 100% 
+fonttools-4.63.0     | 2.3 MB    |                                                                                        |   0% fonttools-4.63.0     | 2.3 MB    | ###################################################################################### | 100% fonttools-4.63.0     | 2.3 MB    | ###################################################################################### | 100% 
+libgl-devel-1.7.0    | 113 KB    |                                                                                        |   0% libgl-devel-1.7.0    | 113 KB    | ###################################################################################### | 100% 
+libxml2-16-2.15.4    | 556 KB    |                                                                                        |   0% libxml2-16-2.15.4    | 556 KB    | ###################################################################################### | 100% 
+libssh2-1.11.1       | 299 KB    |                                                                                        |   0% libssh2-1.11.1       | 299 KB    | ###################################################################################### | 100% 
+libedit-3.1.20260512 | 133 KB    |                                                                                        |   0% libedit-3.1.20260512 | 133 KB    | ###################################################################################### | 100% 
+matplotlib-base-3.10 | 7.0 MB    |                                                                                        |   0% matplotlib-base-3.10 | 7.0 MB    | ####################################################3                                  |  61% matplotlib-base-3.10 | 7.0 MB    | ###################################################################################### | 100% 
+glib-2.90.0          | 84 KB     |                                                                                        |   0% glib-2.90.0          | 84 KB     | ###################################################################################### | 100% 
+glib-tools-2.90.0    | 232 KB    |                                                                                        |   0% glib-tools-2.90.0    | 232 KB    | ###################################################################################### | 100% 
+lcms2-2.19.1         | 248 KB    |                                                                                        |   0% lcms2-2.19.1         | 248 KB    | ###################################################################################### | 100% 
+tornado-6.5.8        | 662 KB    |                                                                                        |   0% tornado-6.5.8        | 662 KB    | ###################################################################################### | 100% 
+readline-8.3         | 341 KB    |                                                                                        |   0% readline-8.3         | 341 KB    | ###################################################################################### | 100% 
+libnghttp2-1.68.1    | 635 KB    |                                                                                        |   0% libnghttp2-1.68.1    | 635 KB    | ###################################################################################### | 100% 
+libxcb-1.17.0        | 386 KB    |                                                                                        |   0% libxcb-1.17.0        | 386 KB    | ###################################################################################### | 100% 
+_openmp_mutex-4.5    | 28 KB     |                                                                                        |   0% _openmp_mutex-4.5    | 28 KB     | ###################################################################################### | 100% 
+freetype-2.14.3      | 171 KB    |                                                                                        |   0% freetype-2.14.3      | 171 KB    | ###################################################################################### | 100% 
+libuuid-2.42.4       | 34 KB     |                                                                                        |   0% libuuid-2.42.4       | 34 KB     | ###################################################################################### | 100% 
+ca-certificates-2026 | 129 KB    |                                                                                        |   0% ca-certificates-2026 | 129 KB    | ###################################################################################### | 100% 
+xorg-libxau-1.0.12   | 18 KB     |                                                                                        |   0% xorg-libxau-1.0.12   | 18 KB     | ###################################################################################### | 100% 
+xorg-libx11-1.8.13   | 820 KB    |                                                                                        |   0% xorg-libx11-1.8.13   | 820 KB    | ###################################################################################### | 100% 
+libtiff-4.7.2        | 449 KB    |                                                                                        |   0% libtiff-4.7.2        | 449 KB    | ###################################################################################### | 100% 
+libntlm-1.8          | 33 KB     |                                                                                        |   0% libntlm-1.8          | 33 KB     | ###################################################################################### | 100% 
+libfreetype6-2.14.3  | 379 KB    |                                                                                        |   0% libfreetype6-2.14.3  | 379 KB    | ###################################################################################### | 100% 
+openjpeg-2.5.4       | 382 KB    |                                                                                        |   0% openjpeg-2.5.4       | 382 KB    | ###################################################################################### | 100% 
+graphite2-1.3.15     | 100 KB    |                                                                                        |   0% graphite2-1.3.15     | 100 KB    | ###################################################################################### | 100% 
+unicodedata2-17.0.1  | 401 KB    |                                                                                        |   0% unicodedata2-17.0.1  | 401 KB    | ###################################################################################### | 100% 
+libev-4.33           | 42 KB     |                                                                                        |   0% libev-4.33           | 42 KB     | ###################################################################################### | 100% 
+libglib-2.90.0       | 4.6 MB    |                                                                                        |   0% libglib-2.90.0       | 4.6 MB    | ###############################################################################8       |  93% libglib-2.90.0       | 4.6 MB    | ###################################################################################### | 100% 
+c-ares-1.34.8        | 223 KB    |                                                                                        |   0% c-ares-1.34.8        | 223 KB    | ###################################################################################### | 100% 
+python-dateutil-2.9. | 228 KB    |                                                                                        |   0% python-dateutil-2.9. | 228 KB    | ###################################################################################### | 100% 
+openssl-3.6.5        | 3.0 MB    |                                                                                        |   0% openssl-3.6.5        | 3.0 MB    | ###################################################################################### | 100% openssl-3.6.5        | 3.0 MB    | ###################################################################################### | 100% 
+pthread-stubs-0.4    | 9 KB      |                                                                                        |   0% pthread-stubs-0.4    | 9 KB      | ###################################################################################### | 100% 
+kiwisolver-1.5.1     | 75 KB     |                                                                                        |   0% kiwisolver-1.5.1     | 75 KB     | ###################################################################################### | 100% 
+libjpeg-turbo-3.2.0  | 635 KB    |                                                                                        |   0% libjpeg-turbo-3.2.0  | 635 KB    | ###################################################################################### | 100% 
+libcblas-3.11.0      | 18 KB     |                                                                                        |   0% libcblas-3.11.0      | 18 KB     | ###################################################################################### | 100% 
+libegl-devel-1.7.0   | 31 KB     |                                                                                        |   0% libegl-devel-1.7.0   | 31 KB     | ###################################################################################### | 100% 
+tzdata-2026c         | 116 KB    |                                                                                        |   0% tzdata-2026c         | 116 KB    | ###################################################################################### | 100% tzdata-2026c         | 116 KB    | ###################################################################################### | 100% 
+fonts-conda-forge-1  | 4 KB      |                                                                                        |   0% fonts-conda-forge-1  | 4 KB      | ###################################################################################### | 100% 
+libstdcxx-16.2.0     | 6.3 MB    |                                                                                        |   0% libstdcxx-16.2.0     | 6.3 MB    | ##########################################################1                            |  68% libstdcxx-16.2.0     | 6.3 MB    | ###################################################################################### | 100% 
+font-ttf-dejavu-sans | 388 KB    |                                                                                        |   0% font-ttf-dejavu-sans | 388 KB    | ###################################################################################### | 100% 
+cmake-3.31.8         | 20.0 MB   |                                                                                        |   0% cmake-3.31.8         | 20.0 MB   | ############################5                                                          |  33% cmake-3.31.8         | 20.0 MB   | #########################################################1                             |  66% cmake-3.31.8         | 20.0 MB   | ###################################################################################### | 100% cmake-3.31.8         | 20.0 MB   | ###################################################################################### | 100% 
+icu-78.3             | 13.8 MB   |                                                                                        |   0% icu-78.3             | 13.8 MB   | ##########################################1                                            |  49% icu-78.3             | 13.8 MB   | ###################################################################################### | 100% icu-78.3             | 13.8 MB   | ###################################################################################### | 100% 
+xorg-libxrender-0.9. | 34 KB     |                                                                                        |   0% xorg-libxrender-0.9. | 34 KB     | ###################################################################################### | 100% 
+libgcc-ng-16.2.0     | 28 KB     |                                                                                        |   0% libgcc-ng-16.2.0     | 28 KB     | ###################################################################################### | 100% 
+liblapack-3.11.0     | 18 KB     |                                                                                        |   0% liblapack-3.11.0     | 18 KB     | ###################################################################################### | 100% 
+font-ttf-source-code | 684 KB    |                                                                                        |   0% font-ttf-source-code | 684 KB    | ###################################################################################### | 100% font-ttf-source-code | 684 KB    | ###################################################################################### | 100% 
+libdrm-2.4.129       | 306 KB    |                                                                                        |   0% libdrm-2.4.129       | 306 KB    | ###################################################################################### | 100% 
+python-3.10.22       | 24.2 MB   |                                                                                        |   0% python-3.10.22       | 24.2 MB   | ###############                                                                        |  18% python-3.10.22       | 24.2 MB   | ###################################################5                                   |  60% python-3.10.22       | 24.2 MB   | ##################################################################################     |  95% python-3.10.22       | 24.2 MB   | ###################################################################################### | 100% 
+xcb-util-keysyms-0.4 | 14 KB     |                                                                                        |   0% xcb-util-keysyms-0.4 | 14 KB     | ###################################################################################### | 100% 
+xcb-util-image-0.4.0 | 24 KB     |                                                                                        |   0% xcb-util-image-0.4.0 | 24 KB     | ###################################################################################### | 100% 
+alsa-lib-1.2.16.1    | 581 KB    |                                                                                        |   0% alsa-lib-1.2.16.1    | 581 KB    | ###################################################################################### | 100% 
+font-ttf-inconsolata | 94 KB     |                                                                                        |   0% font-ttf-inconsolata | 94 KB     | ###################################################################################### | 100% 
+libcurl-8.22.0       | 488 KB    |                                                                                        |   0% libcurl-8.22.0       | 488 KB    | ###################################################################################### | 100% 
+libxslt-1.1.45       | 244 KB    |                                                                                        |   0% libxslt-1.1.45       | 244 KB    | ###################################################################################### | 100% 
+fonts-conda-ecosyste | 4 KB      |                                                                                        |   0% fonts-conda-ecosyste | 4 KB      | ###################################################################################### | 100% 
+munkres-1.1.4        | 15 KB     |                                                                                        |   0% munkres-1.1.4        | 15 KB     | ###################################################################################### | 100% 
+libuv-1.52.1         | 410 KB    |                                                                                        |   0% libuv-1.52.1         | 410 KB    | ###################################################################################### | 100% 
+xorg-libxxf86vm-1.1. | 18 KB     |                                                                                        |   0% xorg-libxxf86vm-1.1. | 18 KB     | ###################################################################################### | 100% 
+libharfbuzz-14.6.0   | 1.4 MB    |                                                                                        |   0% libharfbuzz-14.6.0   | 1.4 MB    | ###################################################################################### | 100% 
+qt6-main-6.11.2      | 58.1 MB   |                                                                                        |   0% qt6-main-6.11.2      | 58.1 MB   | ######4                                                                                |   7% qt6-main-6.11.2      | 58.1 MB   | ############4                                                                          |  15% qt6-main-6.11.2      | 58.1 MB   | #####################1                                                                 |  25% qt6-main-6.11.2      | 58.1 MB   | ###################################5                                                   |  41% qt6-main-6.11.2      | 58.1 MB   | ###################################################                                    |  59% qt6-main-6.11.2      | 58.1 MB   | ##############################################################6                        |  73% qt6-main-6.11.2      | 58.1 MB   | ##############################################################################5        |  91% qt6-main-6.11.2      | 58.1 MB   | ###################################################################################### | 100% 
+openldap-2.6.13      | 768 KB    |                                                                                        |   0% openldap-2.6.13      | 768 KB    | ###################################################################################### | 100% openldap-2.6.13      | 768 KB    | ###################################################################################### | 100% 
+xorg-libxrandr-1.5.5 | 30 KB     |                                                                                        |   0% xorg-libxrandr-1.5.5 | 30 KB     | ###################################################################################### | 100% 
+libpsl-0.23.1        | 71 KB     |                                                                                        |   0% libpsl-0.23.1        | 71 KB     | ###################################################################################### | 100% 
+pyside6-6.11.2       | 13.2 MB   |                                                                                        |   0% pyside6-6.11.2       | 13.2 MB   | ###########################################9                                           |  51% pyside6-6.11.2       | 13.2 MB   | ###################################################################################### | 100% 
+libstdcxx-ng-16.2.0  | 28 KB     |                                                                                        |   0% libstdcxx-ng-16.2.0  | 28 KB     | ###################################################################################### | 100% 
+xorg-libxdmcp-1.1.5  | 22 KB     |                                                                                        |   0% xorg-libxdmcp-1.1.5  | 22 KB     | ###################################################################################### | 100% 
+bzip2-1.0.8          | 252 KB    |                                                                                        |   0% bzip2-1.0.8          | 252 KB    | ###################################################################################### | 100% 
+qhull-2020.2         | 540 KB    |                                                                                        |   0% qhull-2020.2         | 540 KB    | ###################################################################################### | 100% 
+xcb-util-cursor-0.1. | 20 KB     |                                                                                        |   0% xcb-util-cursor-0.1. | 20 KB     | ###################################################################################### | 100% 
+libglvnd-1.7.0       | 131 KB    |                                                                                        |   0% libglvnd-1.7.0       | 131 KB    | ###################################################################################### | 100% 
+libexpat-2.8.5       | 76 KB     |                                                                                        |   0% libexpat-2.8.5       | 76 KB     | ###################################################################################### | 100% 
+xorg-libxtst-1.2.5   | 34 KB     |                                                                                        |   0% xorg-libxtst-1.2.5   | 34 KB     | ###################################################################################### | 100% 
+dbus-1.16.2          | 439 KB    |                                                                                        |   0% dbus-1.16.2          | 439 KB    | ###################################################################################### | 100% 
+six-1.17.0           | 18 KB     |                                                                                        |   0% six-1.17.0           | 18 KB     | ###################################################################################### | 100% 
+libpciaccess-0.19    | 29 KB     |                                                                                        |   0% libpciaccess-0.19    | 29 KB     | ###################################################################################### | 100% 
+libbrotlienc-1.2.0   | 291 KB    |                                                                                        |   0% libbrotlienc-1.2.0   | 291 KB    | ###################################################################################### | 100% 
+xorg-libxfixes-6.0.2 | 21 KB     |                                                                                        |   0% xorg-libxfixes-6.0.2 | 21 KB     | ###################################################################################### | 100% 
+libxkbcommon-1.13.2  | 920 KB    |                                                                                        |   0% libxkbcommon-1.13.2  | 920 KB    | ###################################################################################### | 100% 
+lerc-4.2.0           | 265 KB    |                                                                                        |   0% lerc-4.2.0           | 265 KB    | ###################################################################################### | 100% 
+libbrotlicommon-1.2. | 79 KB     |                                                                                        |   0% libbrotlicommon-1.2. | 79 KB     | ###################################################################################### | 100% 
+double-conversion-3. | 70 KB     |                                                                                        |   0% double-conversion-3. | 70 KB     | ###################################################################################### | 100% 
+libgfortran5-16.2.0  | 2.4 MB    |                                                                                        |   0% libgfortran5-16.2.0  | 2.4 MB    | ###################################################################################### | 100% libgfortran5-16.2.0  | 2.4 MB    | ###################################################################################### | 100% 
+libxcrypt-4.4.38     | 100 KB    |                                                                                        |   0% libxcrypt-4.4.38     | 100 KB    | ###################################################################################### | 100% 
+xorg-libxdamage-1.1. | 13 KB     |                                                                                        |   0% xorg-libxdamage-1.1. | 13 KB     | ###################################################################################### | 100% 
+libglx-devel-1.7.0   | 27 KB     |                                                                                        |   0% libglx-devel-1.7.0   | 27 KB     | ###################################################################################### | 100% 
+xorg-libxext-1.3.7   | 52 KB     |                                                                                        |   0% xorg-libxext-1.3.7   | 52 KB     | ###################################################################################### | 100% 
+libwebp-base-1.6.0   | 418 KB    |                                                                                        |   0% libwebp-base-1.6.0   | 418 KB    | ###################################################################################### | 100% 
+libxml2-2.15.4       | 45 KB     |                                                                                        |   0% libxml2-2.15.4       | 45 KB     | ###################################################################################### | 100% 
+xkeyboard-config-2.4 | 431 KB    |                                                                                        |   0% xkeyboard-config-2.4 | 431 KB    | ###################################################################################### | 100% 
+xcb-util-wm-0.4.2    | 50 KB     |                                                                                        |   0% xcb-util-wm-0.4.2    | 50 KB     | ###################################################################################### | 100% 
+matplotlib-3.10.9    | 17 KB     |                                                                                        |   0% matplotlib-3.10.9    | 17 KB     | ###################################################################################### | 100% 
+wayland-1.26.0       | 332 KB    |                                                                                        |   0% wayland-1.26.0       | 332 KB    | ###################################################################################### | 100% 
+fontconfig-2.18.3    | 289 KB    |                                                                                        |   0% fontconfig-2.18.3    | 289 KB    | ###################################################################################### | 100% 
+zlib-ng-2.3.3        | 121 KB    |                                                                                        |   0% zlib-ng-2.3.3        | 121 KB    | ###################################################################################### | 100% 
+zstd-1.5.7           | 587 KB    |                                                                                        |   0% zstd-1.5.7           | 587 KB    | ###################################################################################### | 100% 
+libsqlite-3.53.4     | 947 KB    |                                                                                        |   0% libsqlite-3.53.4     | 947 KB    | ###################################################################################### | 100% 
+pyparsing-3.3.2      | 108 KB    |                                                                                        |   0% pyparsing-3.3.2      | 108 KB    | ###################################################################################### | 100% 
+libopengl-1.7.0      | 49 KB     |                                                                                        |   0% libopengl-1.7.0      | 49 KB     | ###################################################################################### | 100% 
+libgomp-16.2.0       | 626 KB    |                                                                                        |   0% libgomp-16.2.0       | 626 KB    | ###################################################################################### | 100% 
+libffi-3.7.0         | 66 KB     |                                                                                        |   0% libffi-3.7.0         | 66 KB     | ###################################################################################### | 100% 
+libfreetype-2.14.3   | 8 KB      |                                                                                        |   0% libfreetype-2.14.3   | 8 KB      | ###################################################################################### | 100% 
+pip-26.2.1           | 1.1 MB    |                                                                                        |   0% pip-26.2.1           | 1.1 MB    | ###################################################################################### | 100% pip-26.2.1           | 1.1 MB    | ###################################################################################### | 100% 
+liblzma-5.8.3        | 110 KB    |                                                                                        |   0% liblzma-5.8.3        | 110 KB    | ###################################################################################### | 100% 
+libgl-1.7.0          | 129 KB    |                                                                                        |   0% libgl-1.7.0          | 129 KB    | ###################################################################################### | 100% 
+libpq-18.6           | 2.6 MB    |                                                                                        |   0% libpq-18.6           | 2.6 MB    | ###################################################################################### | 100% libpq-18.6           | 2.6 MB    | ###################################################################################### | 100% 
+ncurses-6.6          | 890 KB    |                                                                                        |   0% ncurses-6.6          | 890 KB    | ###################################################################################### | 100% ncurses-6.6          | 890 KB    | ###################################################################################### | 100% 
+libdeflate-1.25      | 72 KB     |                                                                                        |   0% libdeflate-1.25      | 72 KB     | ###################################################################################### | 100% 
+tk-8.6.13            | 3.4 MB    |                                                                                        |   0% tk-8.6.13            | 3.4 MB    | ###################################################################################3   |  97% tk-8.6.13            | 3.4 MB    | ###################################################################################### | 100% 
+xcb-util-0.4.1       | 20 KB     |                                                                                        |   0% xcb-util-0.4.1       | 20 KB     | ###################################################################################### | 100% 
+libblas-3.11.0       | 18 KB     |                                                                                        |   0% libblas-3.11.0       | 18 KB     | ###################################################################################### | 100% 
+libpng-1.6.59        | 309 KB    |                                                                                        |   0% libpng-1.6.59        | 309 KB    | ##########################6                                                            |  31% libpng-1.6.59        | 309 KB    | ################################################################################       |  93% libpng-1.6.59        | 309 KB    | ###################################################################################### | 100% 
+font-ttf-ubuntu-0.83 | 1.5 MB    |                                                                                        |   0% font-ttf-ubuntu-0.83 | 1.5 MB    | ######                                                                                 |   7% font-ttf-ubuntu-0.83 | 1.5 MB    | ###################9                                                                   |  23% font-ttf-ubuntu-0.83 | 1.5 MB    | ##########################################6                                            |  50% font-ttf-ubuntu-0.83 | 1.5 MB    | ######################################################################4                |  82% font-ttf-ubuntu-0.83 | 1.5 MB    | ###################################################################################### | 100% 
+libclang13-23.1.3    | 14.7 MB   |                                                                                        |   0% libclang13-23.1.3    | 14.7 MB   | #8                                                                                     |   2% libclang13-23.1.3    | 14.7 MB   | ######7                                                                                |   8% libclang13-23.1.3    | 14.7 MB   | ##############8                                                                        |  17% libclang13-23.1.3    | 14.7 MB   | #########################1                                                             |  29% libclang13-23.1.3    | 14.7 MB   | ####################################1                                                  |  42% libclang13-23.1.3    | 14.7 MB   | ####################################################7                                  |  61% libclang13-23.1.3    | 14.7 MB   | #########################################################################6             |  86% libclang13-23.1.3    | 14.7 MB   | ###################################################################################### | 100% 
+setuptools-84.0.0    | 512 KB    |                                                                                        |   0% setuptools-84.0.0    | 512 KB    | ###################################################################################### | 100% 
+libnsl-2.0.1         | 33 KB     |                                                                                        |   0% libnsl-2.0.1         | 33 KB     | ###################################################################################### | 100% 
+libgcc-16.2.0        | 1.0 MB    |                                                                                        |   0% libgcc-16.2.0        | 1.0 MB    | ###################################################################################### | 100% libgcc-16.2.0        | 1.0 MB    | ###################################################################################### | 100% 
+xorg-libxcursor-1.2. | 32 KB     |                                                                                        |   0% xorg-libxcursor-1.2. | 32 KB     | ###################################################################################### | 100% 
+contourpy-1.3.2      | 255 KB    |                                                                                        |   0% contourpy-1.3.2      | 255 KB    | ###################################################################################### | 100% 
+ld_impl_linux-64-2.4 | 728 KB    |                                                                                        |   0% ld_impl_linux-64-2.4 | 728 KB    | ###################################################################################### | 100% 
+libglx-1.7.0         | 78 KB     |                                                                                        |   0% libglx-1.7.0         | 78 KB     | ###################################################################################### | 100% 
+python_abi-3.10      | 7 KB      |                                                                                        |   0% python_abi-3.10      | 7 KB      | ###################################################################################### | 100% 
+xorg-libsm-1.2.6     | 30 KB     |                                                                                        |   0% xorg-libsm-1.2.6     | 30 KB     | ###################################################################################### | 100% 
+libiconv-1.18        | 771 KB    |                                                                                        |   0% libiconv-1.18        | 771 KB    | ###################################################################################### | 100% 
+rhash-1.4.6          | 190 KB    |                                                                                        |   0% rhash-1.4.6          | 190 KB    | ###################################################################################### | 100% 
+wheel-0.48.0         | 34 KB     |                                                                                        |   0% wheel-0.48.0         | 34 KB     | ###################################################################################### | 100% 
+packaging-26.3       | 114 KB    |                                                                                        |   0% packaging-26.3       | 114 KB    | ###################################################################################### | 100% 
+libvulkan-loader-1.4 | 202 KB    |                                                                                        |   0% libvulkan-loader-1.4 | 202 KB    | ###################################################################################### | 100% 
+xcb-util-renderutil- | 17 KB     |                                                                                        |   0% xcb-util-renderutil- | 17 KB     | ###################################################################################### | 100% 
+libzlib-1.3.2        | 62 KB     |                                                                                        |   0% libzlib-1.3.2        | 62 KB     | ###################################################################################### | 100% 
+cycler-0.12.1        | 14 KB     |                                                                                        |   0% cycler-0.12.1        | 14 KB     | ###################################################################################### | 100% 
+pcre2-10.47          | 1.2 MB    |                                                                                        |   0% pcre2-10.47          | 1.2 MB    | ###################################################################################### | 100% pcre2-10.47          | 1.2 MB    | ###################################################################################### | 100% 
+pixman-0.46.4        | 368 KB    |                                                                                        |   0% pixman-0.46.4        | 368 KB    | ###################################################################################### | 100% 
+pillow-12.3.0        | 894 KB    |                                                                                        |   0% pillow-12.3.0        | 894 KB    | ###################################################################################### | 100% 
+pkg-config-0.29.2    | 138 KB    |                                                                                        |   0% pkg-config-0.29.2    | 138 KB    | ###################################################################################### | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate /home/zakariarafi/repros/sieve-nsdi24/.repro-env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_CXX_FLAGS_DEBUG -g CMAKE_CXX_FLAGS_RELWITHDEBINFO -O2 -g -DNDEBUG CMAKE_CXX_FLAGS_RELEASE -O3 -DNDEBUG
+-- SUPPORT TTL OFF, USE_HUGEPAGE OFF, LOGLEVEL INFO, ENABLE_GLCACHE OFF, ENABLE_LRB OFF, OPT_SUPPORT_ZSTD_TRACE ON
+-- Found PkgConfig: /home/zakariarafi/repros/sieve-nsdi24/.repro-env/bin/pkg-config (found version "0.29.2")
+-- Checking for one of the modules 'glib-2.0'
+-- Found GLib: /home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libglib-2.0.so (found version "2.90.0")
+-- Looking for argp_parse
+-- Looking for argp_parse - found
+-- Found argp: /usr/include
+-- Found ZSTD: /home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libzstd.so
+-- Found Zstd: /home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libzstd.so
+-- ZSTD_INCLUDE_DIR /home/zakariarafi/repros/sieve-nsdi24/.repro-env/include, ZSTD_LIBRARIES /home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libzstd.so
+-- Not Found Tcmalloc: Tcmalloc_LIBRARY-NOTFOUND
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+-- <<++=====------------------\/------------------=====++>>
+-- <<++              libCacheSim summary             ++>>
+-- <<++=====------------------/\------------------=====++>>
+-- ================== dependency related ==================
+-- glib found?     TRUE - LIBS=/home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libglib-2.0.so, header =/home/zakariarafi/repros/sieve-nsdi24/.repro-env/include/glib-2.0;/home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/glib-2.0/include
+-- tcmalloc found? FALSE - LIBS=, header=
+-- ZSTD found? TRUE - LIBS=/home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libzstd.so, header=/home/zakariarafi/repros/sieve-nsdi24/.repro-env/include
+-- ==================== CMake related =====================
+-- platform          = Linux 6.8.0-106-generic
+-- CPU type          = x86_64
+-- cmake source      = /home/zakariarafi/repros/sieve-nsdi24/libCacheSim
+-- cmake compiler    = /usr/bin/cc
+-- CMAKE_BUILD_TYPE  = Release
+-- CFLAGS            =    -Wl,--export-dynamic  -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free
+-- LIBS              = /home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libglib-2.0.so
+-- Installation path = /usr/local
+-- ========================================================
+-- ============= Status of optional features ==============
+-- ========================================================
+-- Found customized directory, building customized
+-- Found priv directory, building priv
+-- Building without test
+-- Configuring done (2.0s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/zakariarafi/repros/sieve-nsdi24/libCacheSim/_build
+[  2%] Building C object libCacheSim/utils/CMakeFiles/utils.dir/logging.c.o
+[  4%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/pqueue.c.o
+[  4%] Building C object libCacheSim/cache/admission/CMakeFiles/admissionC.dir/prob.c.o
+[  6%] Building CXX object libCacheSim/cache/admission/CMakeFiles/admissionCpp.dir/adaptsize.cpp.o
+[  6%] Building C object libCacheSim/utils/CMakeFiles/utils.dir/mymath.c.o
+[  6%] Building C object libCacheSim/cache/admission/CMakeFiles/admissionC.dir/size.c.o
+[  6%] Linking CXX static library libadmissionCpp.a
+[  9%] Building C object libCacheSim/utils/CMakeFiles/utils.dir/mystr.c.o
+[  9%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/splay.c.o
+[  9%] Built target admissionCpp
+[ 11%] Building C object libCacheSim/cache/admission/CMakeFiles/admissionC.dir/bloomfilter.c.o
+[ 11%] Building C object libCacheSim/cache/prefetch/CMakeFiles/prefetchC.dir/Mithril.c.o
+[ 11%] Building C object libCacheSim/utils/CMakeFiles/utils.dir/mysys.c.o
+[ 13%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/bloom.c.o
+[ 13%] Linking C static library libadmissionC.a
+[ 13%] Built target admissionC
+[ 15%] Linking C static library libutils.a
+[ 15%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/minimalIncrementCBF.c.o
+[ 15%] Built target utils
+[ 15%] Building C object libCacheSim/dataStructure/hash/CMakeFiles/ds_hash.dir/murmur3.c.o
+[ 15%] Building C object libCacheSim/cache/prefetch/CMakeFiles/prefetchC.dir/OBL.c.o
+[ 18%] Linking C static library libds_hash.a
+[ 20%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/hash/murmur3.c.o
+[ 20%] Built target ds_hash
+[ 20%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/hashtable/chainedHashtable.c.o
+[ 22%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/hashtable/chainedHashTableV2.c.o
+[ 25%] Building C object libCacheSim/cache/prefetch/CMakeFiles/prefetchC.dir/PG.c.o
+[ 25%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/binary.c.o
+[ 25%] Linking C static library libprefetchC.a
+[ 27%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/csv.c.o
+[ 27%] Linking C static library libdataStructure.a
+[ 27%] Built target prefetchC
+[ 27%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/txt.c.o
+[ 27%] Built target dataStructure
+[ 29%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/libcsv.c.o
+[ 31%] Building C object libCacheSim/cache/CMakeFiles/cachelib.dir/cache.c.o
+[ 31%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/lcs.c.o
+[ 31%] Building C object libCacheSim/cache/CMakeFiles/cachelib.dir/cacheObj.c.o
+[ 31%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/sampling/spatial.c.o
+[ 34%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/reader.c.o
+[ 34%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/sampling/temporal.c.o
+[ 36%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/zstdReader.c.o
+[ 36%] Linking C static library libcachelib.a
+[ 36%] Built target cachelib
+[ 36%] Building CXX object libCacheSim/cache/eviction/CMakeFiles/evictionCPP.dir/cpp/LFU.cpp.o
+[ 36%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/MRU.c.o
+[ 36%] Building CXX object libCacheSim/cache/eviction/CMakeFiles/evictionCPP.dir/cpp/GDSF.cpp.o
+[ 36%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Random.c.o
+[ 38%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/RandomTwo.c.o
+[ 38%] Linking C static library libtraceReader.a
+[ 38%] Built target traceReader
+[ 38%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LFU.c.o
+[ 40%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LFUDA.c.o
+[ 40%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/ARC.c.o
+[ 43%] Building C object libCacheSim/profiler/CMakeFiles/profiler.dir/dist.c.o
+[ 45%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/FIFO.c.o
+[ 45%] Building C object libCacheSim/profiler/CMakeFiles/profiler.dir/profilerLRU.c.o
+[ 45%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LRU.c.o
+[ 47%] Building C object libCacheSim/profiler/CMakeFiles/profiler.dir/simulator.c.o
+[ 50%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Clock.c.o
+[ 50%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/SLRU.c.o
+[ 52%] Building CXX object libCacheSim/cache/eviction/CMakeFiles/evictionCPP.dir/LHD/lhd.cpp.o
+[ 52%] Building CXX object libCacheSim/cache/eviction/CMakeFiles/evictionCPP.dir/LHD/LHD_Interface.cpp.o
+[ 52%] Linking C static library libprofiler.a
+[ 52%] Built target profiler
+[ 52%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/SLRUv0.c.o
+[ 54%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/CR_LFU.c.o
+[ 54%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/SR_LRU.c.o
+[ 56%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Belady.c.o
+[ 56%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/BeladySize.c.o
+[ 59%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Hyperbolic.c.o
+[ 59%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LeCaR.c.o
+[ 59%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Cacheus.c.o
+[ 61%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/TwoQ.c.o
+[ 61%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/ARCv0.c.o
+[ 63%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LRUv0.c.o
+[ 63%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LeCaRv0.c.o
+[ 65%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LIRS.c.o
+[ 68%] Linking CXX static library libevictionCPP.a
+[ 68%] Built target evictionCPP
+[ 68%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/WTinyLFU.c.o
+[ 70%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Size.c.o
+[ 70%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LRUProb.c.o
+[ 70%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/QDLP.c.o
+[ 72%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/nop.c.o
+[ 72%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/FIFO_Merge.c.o
+[ 75%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/FIFO_Reinsertion.c.o
+[ 75%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/S3FIFO.c.o
+[ 77%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/S3FIFOd.c.o
+[ 77%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/other/flashProb.c.o
+[ 77%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/other/S3LRU.c.o
+[ 79%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Sieve.c.o
+[ 79%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/priv/QDLPv0.c.o
+[ 81%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/priv/S3FIFOdv2.c.o
+[ 81%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/priv/myMQv1.c.o
+[ 84%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/priv/MClock.c.o
+[ 84%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/fifo/LP_SFIFO.c.o
+[ 86%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/fifo/LP_TwoQ.c.o
+[ 86%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/fifo/LP_ARC.c.o
+[ 86%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/fifo/SFIFO.c.o
+[ 88%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/fifo/SFIFOv0.c.o
+[ 88%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/belady/Sieve_Belady.c.o
+[ 90%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/belady/LRU_Belady.c.o
+[ 90%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/belady/FIFO_Belady.c.o
+[ 93%] Linking C static library libevictionC.a
+[ 93%] Built target evictionC
+[ 93%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/cli_parser.c.o
+[ 97%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/main.c.o
+[ 97%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/sim.c.o
+[ 97%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/__/cli_reader_utils.c.o
+[100%] Linking CXX executable ../../../bin/cachesim
+[100%] Built target cachesim
+21:08:55: INFO [setup_utils.py:57 (setup_utils)]: 	BASEPATH: /home/zakariarafi/repros/sieve-nsdi24/libCacheSim/_build
+21:08:55: INFO [setup_utils.py:58 (setup_utils)]: 	CACHESIM_PATH: /home/zakariarafi/repros/sieve-nsdi24/libCacheSim/_build/bin/cachesim
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: [32m[INFO]  10-08-2026 21:08:55 cli_reader_utils.c:262  (tid=132508663244032): calculating working set size...
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: [0m[32m[INFO]  10-08-2026 21:08:55 cli_reader_utils.c:279  (tid=132508663244032): working set size: 1000 object 1000 byte
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: [0m[32m[INFO]  10-08-2026 21:08:55 cli_parser.c:545  (tid=132508663244032): trace path: /home/zakariarafi/repros/sieve-nsdi24/mydata/zipf/zipf_1.0, trace_type PLAIN_TXT_TRACE, ofilepath zipf_1.0.cachesim, 4 threads, warmup -1 sec, total 4 algo x 8 size = 32 caches, fifo, lru, clock, sieve, ignore object size
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: [0m[32m[INFO]  10-08-2026 21:08:55 simulator.c:294  (tid=132508663244032): simulate_with_multi_caches starts computation, num_warmup_req 0, start cache FIFO size 1, end cache Sieve size 400, 32 caches, 4 threads, please wait
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: [0m
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size        1, 1000000 req, miss ratio 0.9705, byte miss ratio 0.9705
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size        5, 1000000 req, miss ratio 0.8858, byte miss ratio 0.8858
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size       10, 1000000 req, miss ratio 0.8177, byte miss ratio 0.8177
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size       20, 1000000 req, miss ratio 0.7312, byte miss ratio 0.7312
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size       50, 1000000 req, miss ratio 0.5954, byte miss ratio 0.5954
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size      100, 1000000 req, miss ratio 0.4802, byte miss ratio 0.4802
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size      200, 1000000 req, miss ratio 0.3544, byte miss ratio 0.3544
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size      400, 1000000 req, miss ratio 0.2164, byte miss ratio 0.2164
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size        1, 1000000 req, miss ratio 0.9705, byte miss ratio 0.9705
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size        5, 1000000 req, miss ratio 0.8743, byte miss ratio 0.8743
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size       10, 1000000 req, miss ratio 0.7894, byte miss ratio 0.7894
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size       20, 1000000 req, miss ratio 0.6859, byte miss ratio 0.6859
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size       50, 1000000 req, miss ratio 0.5400, byte miss ratio 0.5400
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size      100, 1000000 req, miss ratio 0.4247, byte miss ratio 0.4247
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size      200, 1000000 req, miss ratio 0.3033, byte miss ratio 0.3033
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size      400, 1000000 req, miss ratio 0.1759, byte miss ratio 0.1759
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size        1, 1000000 req, miss ratio 0.9705, byte miss ratio 0.9705
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size        5, 1000000 req, miss ratio 0.8657, byte miss ratio 0.8657
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size       10, 1000000 req, miss ratio 0.7738, byte miss ratio 0.7738
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size       20, 1000000 req, miss ratio 0.6689, byte miss ratio 0.6689
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size       50, 1000000 req, miss ratio 0.5248, byte miss ratio 0.5248
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size      100, 1000000 req, miss ratio 0.4111, byte miss ratio 0.4111
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size      200, 1000000 req, miss ratio 0.2930, byte miss ratio 0.2930
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size      400, 1000000 req, miss ratio 0.1695, byte miss ratio 0.1695
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size        1, 1000000 req, miss ratio 0.9705, byte miss ratio 0.9705
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size        5, 1000000 req, miss ratio 0.7642, byte miss ratio 0.7642
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size       10, 1000000 req, miss ratio 0.6567, byte miss ratio 0.6567
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size       20, 1000000 req, miss ratio 0.5552, byte miss ratio 0.5552
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size       50, 1000000 req, miss ratio 0.4250, byte miss ratio 0.4250
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size      100, 1000000 req, miss ratio 0.3288, byte miss ratio 0.3288
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size      200, 1000000 req, miss ratio 0.2330, byte miss ratio 0.2330
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size      400, 1000000 req, miss ratio 0.1387, byte miss ratio 0.1387
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: 
+plot is saved to /home/zakariarafi/repros/sieve-nsdi24/repro-results/20261008T210208Z-567188/miss_ratio_curve.pdf
+
+algorithm,cache_capacity_objects,object_miss_ratio
+Clock,1,0.970500
+Clock,5,0.865700
+Clock,10,0.773800
+Clock,20,0.668900
+Clock,50,0.524800
+Clock,100,0.411100
+Clock,200,0.293000
+Clock,400,0.169500
+FIFO,1,0.970500
+FIFO,5,0.885800
+FIFO,10,0.817700
+FIFO,20,0.731200
+FIFO,50,0.595400
+FIFO,100,0.480200
+FIFO,200,0.354400
+FIFO,400,0.216400
+LRU,1,0.970500
+LRU,5,0.874300
+LRU,10,0.789400
+LRU,20,0.685900
+LRU,50,0.540000
+LRU,100,0.424700
+LRU,200,0.303300
+LRU,400,0.175900
+Sieve,1,0.970500
+Sieve,5,0.764200
+Sieve,10,0.656700
+Sieve,20,0.555200
+Sieve,50,0.425000
+Sieve,100,0.328800
+Sieve,200,0.233000
+Sieve,400,0.138700
+
+This is the bundled synthetic-trace example, not full paper reproduction.
+
+SUCCESS: 4 algorithms x 8 sizes. Results: /home/zakariarafi/repros/sieve-nsdi24/repro-results/20261008T210208Z-567188

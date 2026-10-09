@@ -1,0 +1,234 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_CXX_FLAGS_DEBUG -g CMAKE_CXX_FLAGS_RELWITHDEBINFO -O2 -g -DNDEBUG CMAKE_CXX_FLAGS_RELEASE -O3 -DNDEBUG
+-- SUPPORT TTL OFF, USE_HUGEPAGE OFF, LOGLEVEL INFO, ENABLE_GLCACHE OFF, ENABLE_LRB OFF, OPT_SUPPORT_ZSTD_TRACE ON
+-- Found PkgConfig: /home/zakariarafi/repros/sieve-nsdi24/.repro-env/bin/pkg-config (found version "0.29.2")
+-- Checking for one of the modules 'glib-2.0'
+-- Found GLib: /home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libglib-2.0.so (found version "2.90.0")
+-- Looking for argp_parse
+-- Looking for argp_parse - found
+-- Found argp: /usr/include
+-- Found ZSTD: /home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libzstd.so
+-- Found Zstd: /home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libzstd.so
+-- ZSTD_INCLUDE_DIR /home/zakariarafi/repros/sieve-nsdi24/.repro-env/include, ZSTD_LIBRARIES /home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libzstd.so
+-- Not Found Tcmalloc: Tcmalloc_LIBRARY-NOTFOUND
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+-- <<++=====------------------\/------------------=====++>>
+-- <<++              libCacheSim summary             ++>>
+-- <<++=====------------------/\------------------=====++>>
+-- ================== dependency related ==================
+-- glib found?     TRUE - LIBS=/home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libglib-2.0.so, header =/home/zakariarafi/repros/sieve-nsdi24/.repro-env/include/glib-2.0;/home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/glib-2.0/include
+-- tcmalloc found? FALSE - LIBS=, header=
+-- ZSTD found? TRUE - LIBS=/home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libzstd.so, header=/home/zakariarafi/repros/sieve-nsdi24/.repro-env/include
+-- ==================== CMake related =====================
+-- platform          = Linux 6.8.0-106-generic
+-- CPU type          = x86_64
+-- cmake source      = /home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/simulator-source
+-- cmake compiler    = /usr/bin/cc
+-- CMAKE_BUILD_TYPE  = Release
+-- CFLAGS            =    -Wl,--export-dynamic  -fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc -fno-builtin-free
+-- LIBS              = /home/zakariarafi/repros/sieve-nsdi24/.repro-env/lib/libglib-2.0.so
+-- Installation path = /usr/local
+-- ========================================================
+-- ============= Status of optional features ==============
+-- ========================================================
+-- Found customized directory, building customized
+-- Found priv directory, building priv
+-- Building without test
+-- Configuring done (5.4s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/build
+[  0%] Building C object libCacheSim/cache/admission/CMakeFiles/admissionC.dir/prob.c.o
+[  2%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/pqueue.c.o
+[  4%] Building CXX object libCacheSim/cache/admission/CMakeFiles/admissionCpp.dir/adaptsize.cpp.o
+[  6%] Building C object libCacheSim/utils/CMakeFiles/utils.dir/logging.c.o
+[  6%] Building C object libCacheSim/utils/CMakeFiles/utils.dir/mymath.c.o
+[  6%] Building C object libCacheSim/cache/admission/CMakeFiles/admissionC.dir/size.c.o
+[  6%] Linking CXX static library libadmissionCpp.a
+[  6%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/splay.c.o
+[  9%] Building C object libCacheSim/utils/CMakeFiles/utils.dir/mystr.c.o
+[  9%] Built target admissionCpp
+[  9%] Building C object libCacheSim/cache/prefetch/CMakeFiles/prefetchC.dir/Mithril.c.o
+[ 11%] Building C object libCacheSim/cache/admission/CMakeFiles/admissionC.dir/bloomfilter.c.o
+[ 11%] Building C object libCacheSim/utils/CMakeFiles/utils.dir/mysys.c.o
+[ 13%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/bloom.c.o
+[ 13%] Linking C static library libadmissionC.a
+[ 15%] Linking C static library libutils.a
+[ 15%] Built target admissionC
+[ 15%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/minimalIncrementCBF.c.o
+[ 15%] Built target utils
+[ 15%] Building C object libCacheSim/cache/prefetch/CMakeFiles/prefetchC.dir/OBL.c.o
+[ 15%] Building C object libCacheSim/dataStructure/hash/CMakeFiles/ds_hash.dir/murmur3.c.o
+[ 18%] Linking C static library libds_hash.a
+[ 20%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/hash/murmur3.c.o
+[ 20%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/hashtable/chainedHashtable.c.o
+[ 22%] Building C object libCacheSim/cache/prefetch/CMakeFiles/prefetchC.dir/PG.c.o
+[ 22%] Built target ds_hash
+[ 25%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/hashtable/chainedHashTableV2.c.o
+[ 25%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/binary.c.o
+[ 25%] Linking C static library libprefetchC.a
+[ 27%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/csv.c.o
+[ 27%] Linking C static library libdataStructure.a
+[ 27%] Built target prefetchC
+[ 27%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/txt.c.o
+[ 27%] Built target dataStructure
+[ 29%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/libcsv.c.o
+[ 31%] Building C object libCacheSim/cache/CMakeFiles/cachelib.dir/cache.c.o
+[ 31%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/lcs.c.o
+[ 31%] Building C object libCacheSim/cache/CMakeFiles/cachelib.dir/cacheObj.c.o
+[ 34%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/reader.c.o
+[ 34%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/sampling/spatial.c.o
+[ 34%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/sampling/temporal.c.o
+[ 34%] Linking C static library libcachelib.a
+[ 36%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/zstdReader.c.o
+[ 36%] Built target cachelib
+[ 36%] Building CXX object libCacheSim/cache/eviction/CMakeFiles/evictionCPP.dir/cpp/LFU.cpp.o
+[ 36%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/MRU.c.o
+[ 36%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Random.c.o
+[ 36%] Building CXX object libCacheSim/cache/eviction/CMakeFiles/evictionCPP.dir/cpp/GDSF.cpp.o
+[ 38%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/RandomTwo.c.o
+[ 38%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LFU.c.o
+[ 38%] Linking C static library libtraceReader.a
+[ 38%] Built target traceReader
+[ 40%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LFUDA.c.o
+[ 43%] Building CXX object libCacheSim/cache/eviction/CMakeFiles/evictionCPP.dir/LHD/lhd.cpp.o
+[ 43%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/ARC.c.o
+[ 45%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/FIFO.c.o
+[ 45%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LRU.c.o
+[ 47%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Clock.c.o
+[ 47%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/SLRU.c.o
+[ 47%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/SLRUv0.c.o
+[ 47%] Building CXX object libCacheSim/cache/eviction/CMakeFiles/evictionCPP.dir/LHD/LHD_Interface.cpp.o
+[ 50%] Building C object libCacheSim/profiler/CMakeFiles/profiler.dir/dist.c.o
+[ 52%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/CR_LFU.c.o
+[ 52%] Building C object libCacheSim/profiler/CMakeFiles/profiler.dir/profilerLRU.c.o
+[ 52%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/SR_LRU.c.o
+[ 54%] Building C object libCacheSim/profiler/CMakeFiles/profiler.dir/simulator.c.o
+[ 56%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Belady.c.o
+[ 56%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/BeladySize.c.o
+[ 59%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Hyperbolic.c.o
+[ 59%] Linking C static library libprofiler.a
+[ 59%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LeCaR.c.o
+[ 59%] Built target profiler
+[ 59%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Cacheus.c.o
+[ 61%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/TwoQ.c.o
+[ 63%] Linking CXX static library libevictionCPP.a
+[ 63%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/ARCv0.c.o
+[ 65%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LRUv0.c.o
+[ 65%] Built target evictionCPP
+[ 65%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LeCaRv0.c.o
+[ 68%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LIRS.c.o
+[ 68%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/WTinyLFU.c.o
+[ 70%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Size.c.o
+[ 70%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LRUProb.c.o
+[ 70%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/QDLP.c.o
+[ 72%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/nop.c.o
+[ 72%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/FIFO_Merge.c.o
+[ 75%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/FIFO_Reinsertion.c.o
+[ 75%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/S3FIFO.c.o
+[ 77%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/S3FIFOd.c.o
+[ 77%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/other/flashProb.c.o
+[ 77%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/other/S3LRU.c.o
+[ 79%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Sieve.c.o
+[ 79%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/priv/QDLPv0.c.o
+[ 81%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/priv/S3FIFOdv2.c.o
+[ 81%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/priv/myMQv1.c.o
+[ 84%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/priv/MClock.c.o
+[ 84%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/fifo/LP_SFIFO.c.o
+[ 86%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/fifo/LP_TwoQ.c.o
+[ 86%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/fifo/LP_ARC.c.o
+[ 86%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/fifo/SFIFO.c.o
+[ 88%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/fifo/SFIFOv0.c.o
+[ 88%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/belady/Sieve_Belady.c.o
+[ 90%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/belady/LRU_Belady.c.o
+[ 90%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/belady/FIFO_Belady.c.o
+[ 93%] Linking C static library libevictionC.a
+[ 93%] Built target evictionC
+[ 93%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/cli_parser.c.o
+[ 97%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/main.c.o
+[ 97%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/sim.c.o
+[ 97%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/__/cli_reader_utils.c.o
+[100%] Linking CXX executable ../../../bin/cachesim
+[100%] Built target cachesim
+Collecting zstandard==0.23.0
+  Downloading zstandard-0.23.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.0 kB)
+Downloading zstandard-0.23.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 41.4 MB/s  0:00:00
+Installing collected packages: zstandard
+Successfully installed zstandard-0.23.0
+STREAM wiki-CDN: https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/cacheDatasets/wiki/wiki_2019t.oracleGeneral.zst
+RUN wiki-CDN-window1 objects cold: warmup=0, evaluation=800000
+RUN wiki-CDN-window1 objects warm10: warmup=100000, evaluation=800000
+RUN wiki-CDN-window1 objects warm20: warmup=200000, evaluation=800000
+RUN wiki-CDN-window1 bytes cold: warmup=0, evaluation=800000
+RUN wiki-CDN-window1 bytes warm10: warmup=100000, evaluation=800000
+RUN wiki-CDN-window1 bytes warm20: warmup=200000, evaluation=800000
+RUN wiki-CDN-window2 objects cold: warmup=0, evaluation=800000
+RUN wiki-CDN-window2 objects warm10: warmup=100000, evaluation=800000
+RUN wiki-CDN-window2 objects warm20: warmup=200000, evaluation=800000
+RUN wiki-CDN-window2 bytes cold: warmup=0, evaluation=800000
+RUN wiki-CDN-window2 bytes warm10: warmup=100000, evaluation=800000
+RUN wiki-CDN-window2 bytes warm20: warmup=200000, evaluation=800000
+RUN wiki-CDN-window3 objects cold: warmup=0, evaluation=800000
+RUN wiki-CDN-window3 objects warm10: warmup=100000, evaluation=800000
+RUN wiki-CDN-window3 objects warm20: warmup=200000, evaluation=800000
+RUN wiki-CDN-window3 bytes cold: warmup=0, evaluation=800000
+RUN wiki-CDN-window3 bytes warm10: warmup=100000, evaluation=800000
+RUN wiki-CDN-window3 bytes warm20: warmup=200000, evaluation=800000
+STREAM twitter-KV: https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/cacheDatasets/twitter/cluster10.oracleGeneral.zst
+RUN twitter-KV-window1 objects cold: warmup=0, evaluation=800000
+RUN twitter-KV-window1 objects warm10: warmup=100000, evaluation=800000
+RUN twitter-KV-window1 objects warm20: warmup=200000, evaluation=800000
+RUN twitter-KV-window1 bytes cold: warmup=0, evaluation=800000
+RUN twitter-KV-window1 bytes warm10: warmup=100000, evaluation=800000
+RUN twitter-KV-window1 bytes warm20: warmup=200000, evaluation=800000
+RUN twitter-KV-window2 objects cold: warmup=0, evaluation=800000
+RUN twitter-KV-window2 objects warm10: warmup=100000, evaluation=800000
+RUN twitter-KV-window2 objects warm20: warmup=200000, evaluation=800000
+RUN twitter-KV-window2 bytes cold: warmup=0, evaluation=800000
+RUN twitter-KV-window2 bytes warm10: warmup=100000, evaluation=800000
+RUN twitter-KV-window2 bytes warm20: warmup=200000, evaluation=800000
+RUN twitter-KV-window3 objects cold: warmup=0, evaluation=800000
+RUN twitter-KV-window3 objects warm10: warmup=100000, evaluation=800000
+RUN twitter-KV-window3 objects warm20: warmup=200000, evaluation=800000
+RUN twitter-KV-window3 bytes cold: warmup=0, evaluation=800000
+RUN twitter-KV-window3 bytes warm10: warmup=100000, evaluation=800000
+RUN twitter-KV-window3 bytes warm20: warmup=200000, evaluation=800000
+STREAM meta-CDN: https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/cacheDatasets/metaCDN/meta_reag.oracleGeneral.zst
+RUN meta-CDN-window1 objects cold: warmup=0, evaluation=800000
+RUN meta-CDN-window1 objects warm10: warmup=100000, evaluation=800000
+RUN meta-CDN-window1 objects warm20: warmup=200000, evaluation=800000
+RUN meta-CDN-window1 bytes cold: warmup=0, evaluation=800000
+RUN meta-CDN-window1 bytes warm10: warmup=100000, evaluation=800000
+RUN meta-CDN-window1 bytes warm20: warmup=200000, evaluation=800000
+RUN meta-CDN-window2 objects cold: warmup=0, evaluation=800000
+RUN meta-CDN-window2 objects warm10: warmup=100000, evaluation=800000
+RUN meta-CDN-window2 objects warm20: warmup=200000, evaluation=800000
+RUN meta-CDN-window2 bytes cold: warmup=0, evaluation=800000
+RUN meta-CDN-window2 bytes warm10: warmup=100000, evaluation=800000
+RUN meta-CDN-window2 bytes warm20: warmup=200000, evaluation=800000
+RUN meta-CDN-window3 objects cold: warmup=0, evaluation=800000
+RUN meta-CDN-window3 objects warm10: warmup=100000, evaluation=800000
+RUN meta-CDN-window3 objects warm20: warmup=200000, evaluation=800000
+RUN meta-CDN-window3 bytes cold: warmup=0, evaluation=800000
+RUN meta-CDN-window3 bytes warm10: warmup=100000, evaluation=800000
+RUN meta-CDN-window3 bytes warm20: warmup=200000, evaluation=800000
+SUCCESS: 1728 configurations; results: /home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911
+
+Completed. Results: /home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911

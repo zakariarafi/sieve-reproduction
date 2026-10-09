@@ -1,0 +1,17 @@
+[
+  "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/build/bin/cachesim",
+  "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/wiki-CDN-window3-warm20.oracleGeneral.bin",
+  "oracleGeneral",
+  "fifo,lru,clock,sieve",
+  "520,2603,5206,10412,26030,52060,104120,208240",
+  "--ignore-obj-size",
+  "1",
+  "--warmup-sec",
+  "200000",
+  "--num-thread",
+  "4",
+  "--use-ttl",
+  "0",
+  "--consider-obj-metadata",
+  "0"
+]

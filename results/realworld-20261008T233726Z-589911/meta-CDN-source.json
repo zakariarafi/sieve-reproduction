@@ -1,0 +1,17 @@
+{
+  "name": "meta-CDN",
+  "url": "https://ftp.pdl.cmu.edu/pub/datasets/twemcacheWorkload/cacheDatasets/metaCDN/meta_reag.oracleGeneral.zst",
+  "headers": {
+    "Date": "Thu, 08 Oct 2026 23:44:14 GMT",
+    "Server": "Apache/2.4.46 (Debian)",
+    "Upgrade": "h2,h2c",
+    "Connection": "Upgrade, close",
+    "Last-Modified": "Sat, 30 Dec 2023 03:39:42 GMT",
+    "ETag": "\"14e173c0-60db1e635f891\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "350319552"
+  },
+  "consumed_raw_records": 3000000,
+  "skipped_zero_size": 0,
+  "consumed_raw_prefix_sha256": "5712c6c9b0e8a28c7ffa3621081240693ddb36e9157a5594ae1e381f6b7581c9"
+}

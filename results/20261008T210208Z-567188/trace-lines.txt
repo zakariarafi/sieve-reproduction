@@ -1,0 +1,1 @@
+1000000 /home/zakariarafi/repros/sieve-nsdi24/mydata/zipf/zipf_1.0

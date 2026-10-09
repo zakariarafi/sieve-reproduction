@@ -1,0 +1,35 @@
+[32m[INFO]  10-08-2026 23:42:59 cli_parser.c:545  (tid=134881787946240): trace path: /home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/twitter-KV-window2-cold.oracleGeneral.bin, trace_type ORACLE_GENERAL_TRACE, ofilepath twitter-KV-window2-cold.oracleGeneral.bin.cachesim, 4 threads, warmup 0 sec, total 4 algo x 8 size = 32 caches, fifo, lru, clock, sieve
+[0m[32m[INFO]  10-08-2026 23:42:59 simulator.c:294  (tid=134881787946240): simulate_with_multi_caches starts computation, num_warmup_req 0, start cache FIFO size 11KiB, end cache Sieve size 4MiB, 32 caches, 4 threads, please wait
+[0m
+result/twitter-KV-window2-cold.oracleGeneral.bin                             FIFO cache size    11000, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                             FIFO cache size    55000, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                             FIFO cache size   110001, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                             FIFO cache size   220003, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                             FIFO cache size   550009, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                             FIFO cache size  1100019, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                             FIFO cache size  2200039, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                             FIFO cache size  4400079, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                              LRU cache size    11000, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                              LRU cache size    55000, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                              LRU cache size   110001, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                              LRU cache size   220003, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                              LRU cache size   550009, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                              LRU cache size  1100019, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                              LRU cache size  2200039, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                              LRU cache size  4400079, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Clock cache size    11000, 800000 req, miss ratio 0.5000075000, byte miss ratio 0.5000075000
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Clock cache size    55000, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Clock cache size   110001, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Clock cache size   220003, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Clock cache size   550009, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Clock cache size  1100019, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Clock cache size  2200039, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Clock cache size  4400079, 800000 req, miss ratio 0.5000050000, byte miss ratio 0.5000050000
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Sieve cache size    11000, 800000 req, miss ratio 0.5010025000, byte miss ratio 0.5010025000
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Sieve cache size    55000, 800000 req, miss ratio 0.5002087500, byte miss ratio 0.5002087500
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Sieve cache size   110001, 800000 req, miss ratio 0.5000700000, byte miss ratio 0.5000700000
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Sieve cache size   220003, 800000 req, miss ratio 0.5000512500, byte miss ratio 0.5000512500
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Sieve cache size   550009, 800000 req, miss ratio 0.5000225000, byte miss ratio 0.5000225000
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Sieve cache size  1100019, 800000 req, miss ratio 0.5000125000, byte miss ratio 0.5000125000
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Sieve cache size  2200039, 800000 req, miss ratio 0.5000087500, byte miss ratio 0.5000087500
+result/twitter-KV-window2-cold.oracleGeneral.bin                            Sieve cache size  4400079, 800000 req, miss ratio 0.5000062500, byte miss ratio 0.5000062500

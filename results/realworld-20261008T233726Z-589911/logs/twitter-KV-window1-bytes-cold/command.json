@@ -1,0 +1,17 @@
+[
+  "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/build/bin/cachesim",
+  "/home/zakariarafi/repros/sieve-nsdi24/repro-results/realworld-20261008T233726Z-589911/traces/twitter-KV-window1-cold.oracleGeneral.bin",
+  "oracleGeneral",
+  "fifo,lru,clock,sieve",
+  "11006,55033,110066,220133,550334,1100668,2201336,4402672",
+  "--ignore-obj-size",
+  "0",
+  "--warmup-sec",
+  "0",
+  "--num-thread",
+  "4",
+  "--use-ttl",
+  "0",
+  "--consider-obj-metadata",
+  "0"
+]

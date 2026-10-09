@@ -1,0 +1,112 @@
+[  2%] Building C object libCacheSim/utils/CMakeFiles/utils.dir/logging.c.o
+[  4%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/pqueue.c.o
+[  4%] Building C object libCacheSim/cache/admission/CMakeFiles/admissionC.dir/prob.c.o
+[  6%] Building CXX object libCacheSim/cache/admission/CMakeFiles/admissionCpp.dir/adaptsize.cpp.o
+[  6%] Building C object libCacheSim/utils/CMakeFiles/utils.dir/mymath.c.o
+[  6%] Building C object libCacheSim/cache/admission/CMakeFiles/admissionC.dir/size.c.o
+[  6%] Linking CXX static library libadmissionCpp.a
+[  9%] Building C object libCacheSim/utils/CMakeFiles/utils.dir/mystr.c.o
+[  9%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/splay.c.o
+[  9%] Built target admissionCpp
+[ 11%] Building C object libCacheSim/cache/admission/CMakeFiles/admissionC.dir/bloomfilter.c.o
+[ 11%] Building C object libCacheSim/cache/prefetch/CMakeFiles/prefetchC.dir/Mithril.c.o
+[ 11%] Building C object libCacheSim/utils/CMakeFiles/utils.dir/mysys.c.o
+[ 13%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/bloom.c.o
+[ 13%] Linking C static library libadmissionC.a
+[ 13%] Built target admissionC
+[ 15%] Linking C static library libutils.a
+[ 15%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/minimalIncrementCBF.c.o
+[ 15%] Built target utils
+[ 15%] Building C object libCacheSim/dataStructure/hash/CMakeFiles/ds_hash.dir/murmur3.c.o
+[ 15%] Building C object libCacheSim/cache/prefetch/CMakeFiles/prefetchC.dir/OBL.c.o
+[ 18%] Linking C static library libds_hash.a
+[ 20%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/hash/murmur3.c.o
+[ 20%] Built target ds_hash
+[ 20%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/hashtable/chainedHashtable.c.o
+[ 22%] Building C object libCacheSim/dataStructure/CMakeFiles/dataStructure.dir/hashtable/chainedHashTableV2.c.o
+[ 25%] Building C object libCacheSim/cache/prefetch/CMakeFiles/prefetchC.dir/PG.c.o
+[ 25%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/binary.c.o
+[ 25%] Linking C static library libprefetchC.a
+[ 27%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/csv.c.o
+[ 27%] Linking C static library libdataStructure.a
+[ 27%] Built target prefetchC
+[ 27%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/txt.c.o
+[ 27%] Built target dataStructure
+[ 29%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/libcsv.c.o
+[ 31%] Building C object libCacheSim/cache/CMakeFiles/cachelib.dir/cache.c.o
+[ 31%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/lcs.c.o
+[ 31%] Building C object libCacheSim/cache/CMakeFiles/cachelib.dir/cacheObj.c.o
+[ 31%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/sampling/spatial.c.o
+[ 34%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/reader.c.o
+[ 34%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/sampling/temporal.c.o
+[ 36%] Building C object libCacheSim/traceReader/CMakeFiles/traceReader.dir/generalReader/zstdReader.c.o
+[ 36%] Linking C static library libcachelib.a
+[ 36%] Built target cachelib
+[ 36%] Building CXX object libCacheSim/cache/eviction/CMakeFiles/evictionCPP.dir/cpp/LFU.cpp.o
+[ 36%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/MRU.c.o
+[ 36%] Building CXX object libCacheSim/cache/eviction/CMakeFiles/evictionCPP.dir/cpp/GDSF.cpp.o
+[ 36%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Random.c.o
+[ 38%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/RandomTwo.c.o
+[ 38%] Linking C static library libtraceReader.a
+[ 38%] Built target traceReader
+[ 38%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LFU.c.o
+[ 40%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LFUDA.c.o
+[ 40%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/ARC.c.o
+[ 43%] Building C object libCacheSim/profiler/CMakeFiles/profiler.dir/dist.c.o
+[ 45%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/FIFO.c.o
+[ 45%] Building C object libCacheSim/profiler/CMakeFiles/profiler.dir/profilerLRU.c.o
+[ 45%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LRU.c.o
+[ 47%] Building C object libCacheSim/profiler/CMakeFiles/profiler.dir/simulator.c.o
+[ 50%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Clock.c.o
+[ 50%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/SLRU.c.o
+[ 52%] Building CXX object libCacheSim/cache/eviction/CMakeFiles/evictionCPP.dir/LHD/lhd.cpp.o
+[ 52%] Building CXX object libCacheSim/cache/eviction/CMakeFiles/evictionCPP.dir/LHD/LHD_Interface.cpp.o
+[ 52%] Linking C static library libprofiler.a
+[ 52%] Built target profiler
+[ 52%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/SLRUv0.c.o
+[ 54%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/CR_LFU.c.o
+[ 54%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/SR_LRU.c.o
+[ 56%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Belady.c.o
+[ 56%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/BeladySize.c.o
+[ 59%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Hyperbolic.c.o
+[ 59%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LeCaR.c.o
+[ 59%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Cacheus.c.o
+[ 61%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/TwoQ.c.o
+[ 61%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/ARCv0.c.o
+[ 63%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LRUv0.c.o
+[ 63%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LeCaRv0.c.o
+[ 65%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LIRS.c.o
+[ 68%] Linking CXX static library libevictionCPP.a
+[ 68%] Built target evictionCPP
+[ 68%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/WTinyLFU.c.o
+[ 70%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Size.c.o
+[ 70%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/LRUProb.c.o
+[ 70%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/QDLP.c.o
+[ 72%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/nop.c.o
+[ 72%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/FIFO_Merge.c.o
+[ 75%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/FIFO_Reinsertion.c.o
+[ 75%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/S3FIFO.c.o
+[ 77%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/S3FIFOd.c.o
+[ 77%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/other/flashProb.c.o
+[ 77%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/other/S3LRU.c.o
+[ 79%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/Sieve.c.o
+[ 79%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/priv/QDLPv0.c.o
+[ 81%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/priv/S3FIFOdv2.c.o
+[ 81%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/priv/myMQv1.c.o
+[ 84%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/priv/MClock.c.o
+[ 84%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/fifo/LP_SFIFO.c.o
+[ 86%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/fifo/LP_TwoQ.c.o
+[ 86%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/fifo/LP_ARC.c.o
+[ 86%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/fifo/SFIFO.c.o
+[ 88%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/fifo/SFIFOv0.c.o
+[ 88%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/belady/Sieve_Belady.c.o
+[ 90%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/belady/LRU_Belady.c.o
+[ 90%] Building C object libCacheSim/cache/eviction/CMakeFiles/evictionC.dir/belady/FIFO_Belady.c.o
+[ 93%] Linking C static library libevictionC.a
+[ 93%] Built target evictionC
+[ 93%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/cli_parser.c.o
+[ 97%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/main.c.o
+[ 97%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/sim.c.o
+[ 97%] Building C object libCacheSim/bin/cachesim/CMakeFiles/cachesim.dir/__/cli_reader_utils.c.o
+[100%] Linking CXX executable ../../../bin/cachesim
+[100%] Built target cachesim

@@ -1,0 +1,41 @@
+21:08:55: INFO [setup_utils.py:57 (setup_utils)]: 	BASEPATH: /home/zakariarafi/repros/sieve-nsdi24/libCacheSim/_build
+21:08:55: INFO [setup_utils.py:58 (setup_utils)]: 	CACHESIM_PATH: /home/zakariarafi/repros/sieve-nsdi24/libCacheSim/_build/bin/cachesim
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: [32m[INFO]  10-08-2026 21:08:55 cli_reader_utils.c:262  (tid=132508663244032): calculating working set size...
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: [0m[32m[INFO]  10-08-2026 21:08:55 cli_reader_utils.c:279  (tid=132508663244032): working set size: 1000 object 1000 byte
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: [0m[32m[INFO]  10-08-2026 21:08:55 cli_parser.c:545  (tid=132508663244032): trace path: /home/zakariarafi/repros/sieve-nsdi24/mydata/zipf/zipf_1.0, trace_type PLAIN_TXT_TRACE, ofilepath zipf_1.0.cachesim, 4 threads, warmup -1 sec, total 4 algo x 8 size = 32 caches, fifo, lru, clock, sieve, ignore object size
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: [0m[32m[INFO]  10-08-2026 21:08:55 simulator.c:294  (tid=132508663244032): simulate_with_multi_caches starts computation, num_warmup_req 0, start cache FIFO size 1, end cache Sieve size 400, 32 caches, 4 threads, please wait
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: [0m
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size        1, 1000000 req, miss ratio 0.9705, byte miss ratio 0.9705
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size        5, 1000000 req, miss ratio 0.8858, byte miss ratio 0.8858
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size       10, 1000000 req, miss ratio 0.8177, byte miss ratio 0.8177
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size       20, 1000000 req, miss ratio 0.7312, byte miss ratio 0.7312
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size       50, 1000000 req, miss ratio 0.5954, byte miss ratio 0.5954
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size      100, 1000000 req, miss ratio 0.4802, byte miss ratio 0.4802
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size      200, 1000000 req, miss ratio 0.3544, byte miss ratio 0.3544
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                             FIFO cache size      400, 1000000 req, miss ratio 0.2164, byte miss ratio 0.2164
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size        1, 1000000 req, miss ratio 0.9705, byte miss ratio 0.9705
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size        5, 1000000 req, miss ratio 0.8743, byte miss ratio 0.8743
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size       10, 1000000 req, miss ratio 0.7894, byte miss ratio 0.7894
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size       20, 1000000 req, miss ratio 0.6859, byte miss ratio 0.6859
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size       50, 1000000 req, miss ratio 0.5400, byte miss ratio 0.5400
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size      100, 1000000 req, miss ratio 0.4247, byte miss ratio 0.4247
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size      200, 1000000 req, miss ratio 0.3033, byte miss ratio 0.3033
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                              LRU cache size      400, 1000000 req, miss ratio 0.1759, byte miss ratio 0.1759
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size        1, 1000000 req, miss ratio 0.9705, byte miss ratio 0.9705
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size        5, 1000000 req, miss ratio 0.8657, byte miss ratio 0.8657
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size       10, 1000000 req, miss ratio 0.7738, byte miss ratio 0.7738
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size       20, 1000000 req, miss ratio 0.6689, byte miss ratio 0.6689
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size       50, 1000000 req, miss ratio 0.5248, byte miss ratio 0.5248
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size      100, 1000000 req, miss ratio 0.4111, byte miss ratio 0.4111
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size      200, 1000000 req, miss ratio 0.2930, byte miss ratio 0.2930
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Clock cache size      400, 1000000 req, miss ratio 0.1695, byte miss ratio 0.1695
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size        1, 1000000 req, miss ratio 0.9705, byte miss ratio 0.9705
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size        5, 1000000 req, miss ratio 0.7642, byte miss ratio 0.7642
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size       10, 1000000 req, miss ratio 0.6567, byte miss ratio 0.6567
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size       20, 1000000 req, miss ratio 0.5552, byte miss ratio 0.5552
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size       50, 1000000 req, miss ratio 0.4250, byte miss ratio 0.4250
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size      100, 1000000 req, miss ratio 0.3288, byte miss ratio 0.3288
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size      200, 1000000 req, miss ratio 0.2330, byte miss ratio 0.2330
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: result/zipf_1.0                            Sieve cache size      400, 1000000 req, miss ratio 0.1387, byte miss ratio 0.1387
+21:09:05: INFO [plot_mrc_size.py:77 (plot_mrc_size)]: 	cachesim log: 
+plot is saved to /home/zakariarafi/repros/sieve-nsdi24/repro-results/20261008T210208Z-567188/miss_ratio_curve.pdf

@@ -1,0 +1,17 @@
+contourpy @ file:///home/conda/feedstock_root/build_artifacts/contourpy_1744743067588/work
+cycler @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_cycler_1764466758/work
+fonttools @ file:///home/conda/feedstock_root/build_artifacts/fonttools_1778770237442/work
+kiwisolver @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_kiwisolver_1787938398/work
+matplotlib==3.10.9
+munkres==1.1.4
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1747544640217/work/dist/numpy-2.2.6-cp310-cp310-linux_x86_64.whl#sha256=d6d964caeef85d00073d27cd62b46883d275b3d8162f723f0fcabbd0b3cc3f9d
+packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1785888127/work
+pillow @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pillow_1782912080/work
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pyparsing_1769003998/work
+PySide6==6.11.2
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-dateutil_1751104122/work
+shiboken6==6.11.2
+six @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_six_1753199211/work
+tornado @ file:///home/conda/feedstock_root/build_artifacts/tornado_1786226666421/work
+unicodedata2 @ file:///home/conda/feedstock_root/build_artifacts/unicodedata2_1770908960326/work
+zstandard==0.23.0
