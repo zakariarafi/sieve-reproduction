@@ -1,6 +1,0 @@
-.DS_Store
-.repro-env/
-**/build/
-**/_build/
-**/simulator-source/
-**/traces/
